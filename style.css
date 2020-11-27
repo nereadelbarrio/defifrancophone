@@ -790,7 +790,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 #actividad .popover-content .bck-ol-6 li,
 #actividad .content .workspace ul li .bck-ol-6 li {
 	counter-increment: bck-li-counter;
-	padding-left: 10px;
+	padding-left: 0px;
 	z-index: 0;
 	font-size: 1.4rem;
 }
