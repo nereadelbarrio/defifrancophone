@@ -258,7 +258,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 
 #actividad .content .header .title h3 {
 	color: #fff;
-	background: #DC4F24;
+	background: #2B7239;
 	width: 100%;
 	padding: 13px;
 	font-weight: bold;
@@ -619,7 +619,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	font-weight: 800;
 	position: absolute;
 	text-align: right;
-	color: #333;
+	color: #2b7239;
 	font-size: 1.8rem;
 	width: 31px;
 	margin-top: 0px;
@@ -641,7 +641,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 #actividad .popover-content .bck-ol-2 li,
 #actividad .content .workspace ul li .bck-ol-2 li {
 	counter-increment: bck-li-counter;
-	padding-left: 0px;
+	padding-left: 5px;
 	position: relative;
 	z-index: 0;
 }
@@ -650,15 +650,17 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 #actividad .content .texto_curso ol.bck-ol-2 li:before,
 #actividad .popover-content ol.bck-ol-2 li:before,
 #actividad .content .workspace ul li ol.bck-ol-2 li:before {
-	content: counter(bck-li-counter) ".";
-	position: absolute;
-	color: #333;
-	font-weight: bold;
-	margin-top: 0;
-	text-align: right;
-	margin-left: -10px;
-	width: 29px;
-	font-family: Conv_TypeType-TT_Rounds;
+	 content: counter(bck-li-counter);
+    background: #2b7239;
+    position: absolute;
+    border-radius: 100%;
+    color: #FFF;
+    font-weight: bold;
+    margin-top: 0;
+    text-align: center;
+    margin-left: 0px;
+    width: 25px;
+    font-family: Conv_TypeType-TT_Rounds;
 
 }
 
@@ -684,7 +686,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 #actividad .content .workspace ul li ol.bck-ol-3 li:before {
 	content: counter(bck-li-counter, upper-alpha)'.';
 	position: absolute;
-	color: #000;
+	color: #2b7239;
 	font-size: 1.8rem;
 	font-weight: bold;
 	text-align: right;
@@ -726,6 +728,51 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	font-family: inherit;
 	margin: 0px 0px 0px -1px;
 	width: inherit;
+}
+
+/*LISTA ORDENADA 5*/
+
+#actividad .content .cke_contents .bck-ol-5,
+#actividad .content .texto_curso .bck-ol-5,
+#actividad .content .workspace ul li .bck-ol-5 {
+	list-style-type: none;
+	counter-reset: bck-li-counter;
+}
+
+#actividad .content .cke_contents .bck-ol-5 li,
+#actividad .content .cke_contents .bck-ol-5 li,
+#actividad .content .texto_curso .bck-ol-5 li,
+#actividad .popover-content .bck-ol-5 li,
+#actividad .content .workspace ul li .bck-ol-5 li {
+	counter-increment: bck-li-counter;
+	padding-left: 0px;
+	position: relative;
+	z-index: 0;
+	font-weight: 700;
+}
+
+#actividad .content .cke_contents .bck-ol-5 li:before,
+#actividad .content .texto_curso .bck-ol-5 li:before,
+#actividad .popover-content .bck-ol-5 li:before,
+#actividad .content .workspace ul li .bck-ol-5 li:before {
+	margin-left: -13px;
+}
+
+#actividad .content .cke_contents .bck-ol-5 li:before,
+#actividad .content .texto_curso .bck-ol-5 li:before,
+#actividad .popover-content .bck-ol-5 li:before,
+#actividad .content .workspace ul li .bck-ol-5 li:before {
+	content: counter(bck-li-counter) ".";
+	font-family: Conv_TypeType-TT_Rounds;
+	font-weight: 800;
+	position: absolute;
+	text-align: right;
+	color: #333;
+	font-size: 1.8rem;
+	width: 31px;
+	margin-top: 0px;
+	left: -25px;
+	top: 0px;
 }
 
 
