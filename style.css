@@ -446,20 +446,19 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 
 .bck-title-2 {
 	font-weight: bold;
-	font-size: 5.8rem;
+	font-size: 6rem;
 	border-bottom: none;
 }
 
 .bck-title-3 {
-	font-family: Conv_TypeType-TT_Rounds;
-	font-weight: 100;
-	font-size: 1.7rem;
-	border-bottom: none;
+	font-weight: bold;
+    font-size: 2.1rem;
+    border-bottom: none;
 }
 
 .bck-title-4 {
 	font-weight: bold;
-	font-size: 4.5rem;
+	font-size: 4.3rem;
 	border-bottom: none;
 }
 
@@ -471,7 +470,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     border-radius: 0px;
     background: #000;
     color: #fff;
-    padding: 5px 15px 5px 15px
+    padding: 5px 15px 5px 15px;
     width: fit-content;
     -webkit-width: fit-content;
     -o-width: fit-content;
@@ -482,9 +481,10 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 
 .bck-title-6 {
 	color: #211915;
-    font-size: 3.8rem;
+    font-size: 2.8rem;
     border-bottom: none;
     font-weight: inherit;
+    margin-bottom: 20px;
 }
 
 .bck-enfasis {
