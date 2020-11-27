@@ -776,6 +776,42 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 }
 
 
+/*LISTA ORDENADA 4*/
+#actividad .content .cke_contents .bck-ol-6,
+#actividad .content .texto_curso .bck-ol-6,
+#actividad .content .workspace ul li .bck-ol-6 {
+	list-style-type: none;
+	counter-reset: bck-li-counter;
+}
+
+#actividad .content .cke_contents .bck-ol-6 li,
+#actividad .content .cke_contents .bck-ol-6 li,
+#actividad .content .texto_curso .bck-ol-6 li,
+#actividad .popover-content .bck-ol-6 li,
+#actividad .content .workspace ul li .bck-ol-6 li {
+	counter-increment: bck-li-counter;
+	padding-left: 10px;
+	z-index: 0;
+	font-size: 1.4rem;
+}
+
+#actividad .content .cke_contents .bck-ol-6 li:before,
+#actividad .content .texto_curso ol.bck-ol-6 li:before,
+#actividad .popover-content ol.bck-ol-6 li:before,
+#actividad .content .workspace ul li ol.bck-ol-6 li:before {
+	content: counter(bck-li-counter);
+	position: absolute;
+	color: #000;
+	font-size: 1.8rem;
+	font-weight: bold;
+	text-align: right;
+	left: -20px;
+	font-family: inherit;
+	margin: 0px 0px 0px -1px;
+	width: inherit;
+	font-size: 1.4rem;
+}
+
 /*LISTAS DESORDENADAS*/
 .texto_curso ul li {
 	padding-left: 40px;
