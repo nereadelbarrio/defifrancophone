@@ -1036,6 +1036,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	content: "";
 	height: 6px;
 	width: 6px;
+	background-color: #333;
 	color: #333;
 	border-radius: 50%;
 	position: absolute;
