@@ -1011,11 +1011,6 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 
 /*lista desordenada por defecto, sin seleccionar estilo para la ul*/
 
-#actividad .content .texto_curso ul li,
-#actividad .content .workspace ul li ul li {
-	font-family: 'Conv_Stag'
-}
-
 #actividad .content .texto_curso ul li:before,
 #actividad .content .workspace ul li ul li:before {
 	content: "";
