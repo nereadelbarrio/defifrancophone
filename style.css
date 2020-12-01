@@ -1372,29 +1372,29 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 
 /*CAJA4*/
 .bck-box.bck-box-4 {
-	background: #F1B9A7;
+	background: transparent;
     border: none;
     text-align: left;
     border-radius: 15px;
 }
 
 .bck-box-4 .bck-title {
-	padding: 15px 55px;
-	padding-bottom: 0;
-    border: 0px;
-    color: #000;
-    font-size: 1.5rem;
-    font-weight: 800;
-    background: #F1B9A7;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+	border: 0px;
+	padding: 20px;
+    color: #fff;
+    background: #2B7239;
+    border-radius: 0px;
+    float: left;
+    width: 20%;
 }
 
 .bck-box.bck-box-4 .bck-content {
-	padding: 4px 10px 15px;
-	width: 100%;
-	margin-left: 10px;
-	border-radius: 15px;
+	padding: 20px;
+	border-radius: 0px;
+	border: 2px dashed #2B7239;
+	border-left: none;
+	float: left;
+	width: 80%;
 }
 
 
