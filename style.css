@@ -135,7 +135,7 @@ strong {
 }
 
 @font-face {
-	font-family: 'Conv_StagSans-Black';
+	font-family: 'Conv_StagSans';
 	src: url('fonts/StagSans-Black.eot');
 	src: local('☺'), 
 	url('fonts/StagSans-Black.woff') format('woff'), 
@@ -774,6 +774,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	position: relative;
 	z-index: 0;
 	font-weight: 700;
+	font-family: 'Conv_Stag';
 }
 
 #actividad .content .cke_contents .bck-ol-1 li:before,
@@ -788,7 +789,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 #actividad .popover-content .bck-ol-1 li:before,
 #actividad .content .workspace ul li .bck-ol-1 li:before {
 	content: counter(bck-li-counter) ".";
-	font-family: Conv_TypeType-TT_Rounds;
+	font-family: 'Conv_Stag-Sans';
 	font-weight: 800;
 	position: absolute;
 	text-align: right;
@@ -1017,6 +1018,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
+	font-family: 'Conv_Stag'
 }
 
 #actividad .content .texto_curso ul li::before,
