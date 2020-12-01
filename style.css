@@ -1295,7 +1295,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 
 .bck-box.bck-box-2 .bck-content {
 	font-family: 'Conv_FarnhamText';
-	color: #333
+	color: #333;
     background: #E2EEF5;
     padding: 20px;
     border-radius: 0px;
@@ -1304,13 +1304,20 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 .bck-box.bck-box-2 .bck-title {
 	color: #333;
     background: #6CAAC7;
-    padding: 20px;
+    padding: 15px 20px 10px 20px;
 }
 
 .bck-box.bck-box-2 .bck-title:after {
 	content: "+";
+    font-size: 3rem;
     position: absolute;
-    padding: 15px;
+    right: 0;
+    margin-right: 15px;
+    margin-top: 2px;
+}
+
+.bck-box.bck-box-2 .bck-title:before {
+	display: none;
 }
 
 /*CAJA 3*/
