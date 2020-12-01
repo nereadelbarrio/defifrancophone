@@ -1343,6 +1343,10 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	font-size: 1.6rem;
 }
 
+.bck-box.bck-box-3 .bck-content p {
+	margin-bottom: 5px;
+}
+
 .bck-box.bck-box-3 .bck-content:before {
 	 content: "";
     position: absolute;
