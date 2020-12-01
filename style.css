@@ -1386,15 +1386,15 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     border-radius: 0px;
     float: left;
     width: 20%;
+    position: absolute;
 }
 
 .bck-box.bck-box-4 .bck-content {
 	padding: 20px;
 	border-radius: 0px;
 	border: 2px dashed #2B7239;
-	border-left: none;
 	float: left;
-	width: 80%;
+	width: 100%;
 }
 
 
