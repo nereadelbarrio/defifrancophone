@@ -1242,7 +1242,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 }
 
 .bck-box.bck-box-1 .bck-content {
-	padding: 10px;
+	padding: 25px 15px 15px 60px;
 }
 
 .bck-box.bck-box-1 .bck-content:before {
@@ -1252,6 +1252,8 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	background-repeat: no-repeat;
 	padding: 20px;
 	position: absolute;
+	margin-left: -50px;
+	margin-top: -10px;
 }
 
 .bck-box-1 {
