@@ -939,7 +939,6 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 #actividad .popover-content .bck-ol-5 li:before,
 #actividad .content .workspace ul li .bck-ol-5 li:before {
 	content: counter(bck-li-counter) ".";
-	font-family: Conv_TypeType-TT_Rounds;
 	font-weight: 800;
 	position: absolute;
 	text-align: right;
