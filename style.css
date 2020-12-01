@@ -1294,6 +1294,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 }
 
 .bck-box.bck-box-2 .bck-content {
+	font-family: 'Conv_FarnhamText';
 	color: #333
     background: #E2EEF5;
     padding: 20px;
