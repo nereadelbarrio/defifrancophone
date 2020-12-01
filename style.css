@@ -1337,15 +1337,20 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 
 .bck-box.bck-box-3 .bck-content {
 	padding: 20px;
+	padding-left: 0px;
 	border-radius: 0px;
 	background: transparent;
+	font-size: 1.6rem;
 }
 
 .bck-box.bck-box-3 .bck-content:before {
-	content: "";
-	position: absolute;
-	height: 1px;
-	width: 20%;
+	 content: "";
+    position: absolute;
+    height: 1px;
+    width: 20%;
+    margin-top: -10px;
+    left: 0;
+    background: #000;
 }
 
 .bck-box.bck-box-3 .bck-title {
