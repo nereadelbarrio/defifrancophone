@@ -939,6 +939,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 #actividad .popover-content .bck-ol-5 li:before,
 #actividad .content .workspace ul li .bck-ol-5 li:before {
 	content: counter(bck-li-counter) ".";
+	font-family: 'Conv_Stag';
 	font-weight: 800;
 	position: absolute;
 	text-align: right;
@@ -1035,15 +1036,12 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	content: "";
 	height: 6px;
 	width: 6px;
-	background-color: #333;
 	color: #333;
 	border-radius: 50%;
 	position: absolute;
 	margin-top: .6em;
 	margin-left: 6px;
 }
-
-
 
 /*LISTA DESORDENADA 1*/
 #actividad .content .cke_contents .bck-ul-1,
@@ -1071,13 +1069,12 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	content: "";
     height: 6px;
     width: 6px;
-    background-color: transparent;
+    background-color: #333;
     color: #333;
     border-radius: 50%;
     position: absolute;
     margin-top: .6em;
     margin-left: 6px;
-    border: 1px solid #333;
 }
 
 /*LISTA DESORDENADA 2*/
@@ -1094,7 +1091,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 #actividad .content .workspace ul li .bck-ul-2 li {
 	padding-left: 40px;
 	position: relative;
-	list-style-type: none;
+	list-style: none;
 	margin-bottom: 10px;
 	font-family: 'Conv_Stag'
 }
@@ -1103,14 +1100,16 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 #actividad .content .texto_curso ul.bck-ul-2 li:before,
 #actividad .popover-content ul.bck-ul-2 li:before,
 #actividad .content .workspace ul li ul.bck-ul-2 li:before {
-	content: "►";
-	background: none;
+	content: "";
+    height: 6px;
+    width: 6px;
+    background-color: transparent;
     color: #333;
+    border-radius: 50%;
     position: absolute;
-    margin-top: 0em;
-    margin-left: 4px;
-    font-size: 1.5rem;
-
+    margin-top: .6em;
+    margin-left: 6px;
+    border: 1px solid #333;
 }
 
 /*LISTA DESORDENADA 3*/
@@ -1129,7 +1128,6 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	position: relative;
 	list-style-type: none;
 	margin-bottom: 10px;
-	color: #fff;
 	font-family: 'Conv_Stag'
 }
 
@@ -1137,6 +1135,40 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 #actividad .content .texto_curso ul.bck-ul-3 li:before,
 #actividad .popover-content ul.bck-ul-3 li:before,
 #actividad .content .workspace ul li ul.bck-ul-3 li:before {
+	content: "►";
+	background: none;
+    color: #333;
+    position: absolute;
+    margin-top: 0em;
+    margin-left: 4px;
+    font-size: 1.5rem;
+
+}
+
+/*LISTA DESORDENADA 4*/
+#actividad .content .cke_contents .bck-ul-4,
+#actividad .content .texto_curso .bck-ul-4,
+#actividad .content .workspace ul li .bck-ul-4 {
+	list-style-type: none;
+}
+
+#actividad .content .cke_contents .bck-ul-4 li,
+#actividad .content .cke_contents .bck-ul-4 li,
+#actividad .content .texto_curso .bck-ul-4 li,
+#actividad .popover-content .bck-ul-4 li,
+#actividad .content .workspace ul li .bck-ul-4 li {
+	padding-left: 40px;
+	position: relative;
+	list-style-type: none;
+	margin-bottom: 10px;
+	color: #fff;
+	font-family: 'Conv_Stag'
+}
+
+#actividad .content .cke_contents .bck-ul-4 li:before,
+#actividad .content .texto_curso ul.bck-ul-4 li:before,
+#actividad .popover-content ul.bck-ul-4 li:before,
+#actividad .content .workspace ul li ul.bck-ul-4 li:before {
     content: "";
     background-color: #fff;
     border-radius: 100%;
