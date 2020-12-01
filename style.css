@@ -1387,14 +1387,18 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     float: left;
     width: 20%;
     position: absolute;
+    background-image: url(imagenes/icono_diana.png;);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
 }
 
 .bck-box.bck-box-4 .bck-content {
 	padding: 20px;
-	border-radius: 0px;
-	border: 2px dashed #2B7239;
-	float: left;
-	width: 100%;
+    padding-left: 22%;
+    border-radius: 0px;
+    border: 3px dashed #2B7239;
+    float: left;
+    width: 100%;
 }
 
 
