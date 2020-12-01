@@ -794,7 +794,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	position: absolute;
 	text-align: right;
 	color: #2b7239;
-	font-size: 1.8rem;
+	font-size: 2rem;
 	width: 31px;
 	margin-top: 0px;
 	left: -25px;
@@ -830,11 +830,13 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     border-radius: 100%;
     color: #FFF;
     font-weight: bold;
-    margin-top: 0;
+    margin-top: -3px;
     text-align: center;
     margin-left: 0px;
-    width: 25px;
-    font-family: Conv_TypeType-TT_Rounds;
+    width: 26px;
+    font-family: 'Conv_Stag-Sans';
+    font-size: 1.8rem;
+    padding-top: 2px;
 
 }
 
@@ -1008,6 +1010,12 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 }
 
 /*lista desordenada por defecto, sin seleccionar estilo para la ul*/
+
+#actividad .content .texto_curso ul li,
+#actividad .content .workspace ul li ul li {
+	font-family: 'Conv_Stag'
+}
+
 #actividad .content .texto_curso ul li:before,
 #actividad .content .workspace ul li ul li:before {
 	content: "";
@@ -1018,7 +1026,6 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	border-radius: 50%;
-	font-family: 'Conv_Stag'
 }
 
 #actividad .content .texto_curso ul li::before,
@@ -1055,6 +1062,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	position: relative;
 	list-style: none;
 	margin-bottom: 10px;
+	font-family: 'Conv_Stag'
 }
 
 #actividad .content .cke_contents .bck-ul-1 li:before,
@@ -1089,6 +1097,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	position: relative;
 	list-style-type: none;
 	margin-bottom: 10px;
+	font-family: 'Conv_Stag'
 }
 
 #actividad .content .cke_contents .bck-ul-2 li:before,
@@ -1105,7 +1114,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 
 }
 
-/*LISTA DESORDENADA 2*/
+/*LISTA DESORDENADA 3*/
 #actividad .content .cke_contents .bck-ul-3,
 #actividad .content .texto_curso .bck-ul-3,
 #actividad .content .workspace ul li .bck-ul-3 {
@@ -1122,6 +1131,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	list-style-type: none;
 	margin-bottom: 10px;
 	color: #fff;
+	font-family: 'Conv_Stag'
 }
 
 #actividad .content .cke_contents .bck-ul-3 li:before,
