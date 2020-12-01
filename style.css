@@ -1329,53 +1329,37 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 
 /*CAJA 3*/
 .bck-box.bck-box-3 {
-	background: #F1B9A7;
+	background: transparent;
     border: none;
     text-align: left;
-    border-radius: 15px;
+    border-radius: 0px;
 }
 
 .bck-box.bck-box-3 .bck-content {
-	padding: 4px 10px 15px;
-	width: 100%;
-	margin-left: 10px;
-	border-radius: 15px;
+	padding: 20px;
+	border-radius: 0px;
+	background: transparent;
+}
+
+.bck-box.bck-box-3 .bck-content:before {
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 20%;
 }
 
 .bck-box.bck-box-3 .bck-title {
-	padding: 15px 45px;
-	padding-bottom: 0;
+	padding: 20px;
     border: 0px;
-    color: #000;
-    font-size: 1.5rem;
-    font-weight: 800;
-    background: #F1B9A7;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    color: #333;
+    background: transparent;
+    border-radius: 0px;
 }
 
 .bck-box-3 .bck-title:before {
-	content: " ";
-    position: absolute;
-    padding: 12px;
-    background: url(imagenes/campana_mapas.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: -3px;
-    margin-left: -25px;
+	display: none;
 }
 
-/*Caja 3 dentro de caja 6*/
-.bck-box-6 .bck-box-3 .bck-title:before {
-	content: " ";
-    position: absolute;
-    padding: 12px;
-    background: url(imagenes/campana_mapas.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: -3px;
-    margin-left: -25px;
-}
 
 /*CAJA4*/
 .bck-box.bck-box-4 {
