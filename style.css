@@ -190,6 +190,31 @@ strong {
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Conv_FarnhamText';
+	src: url('fonts/FarnhamText-Regular.eot');
+	src: local('☺'), 
+	url('fonts/FarnhamText-Regular.woff') format('woff'), 
+	url('fonts/FarnhamText-Regular.ttf') format('truetype'), 
+	url('fonts/FarnhamText-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_FarnhamText';
+	src: url('fonts/FarnhamText-RegularItalic.eot');
+	src: local('☺'), 
+	url('fonts/FarnhamText-RegularItalic.woff') format('woff'), 
+	url('fonts/FarnhamText-RegularItalic.ttf') format('truetype'), 
+	url('fonts/FarnhamText-RegularItalic.svg') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+
+
+
 /*TOC*/
 #indice .units ul li.active:not(.disabled),
 #indice .units ul li:focus:not(.disabled) {
@@ -1252,7 +1277,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	background-repeat: no-repeat;
 	padding: 20px;
 	position: absolute;
-	margin-left: -50px;
+	margin-left: -48px;
 	margin-top: -10px;
 }
 
@@ -1260,124 +1285,31 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	background-color: #F1EBDE;
 }
 
-/*Caja 1 en caja 11*/
-
-.bck-box-11 .bck-box-1 .bck-title:before {
-	content: " ";
-	position: absolute;
-	padding: 17px;
-	background-image: url(imagenes/engrupo_mapas_naranja.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-	margin-top: -3px;
-	margin-left: -40px;
-	display: block;
-}
-
-.bck-box-11 .bck-box .bck-box-1 {
-	min-height: 80px;
-	margin-top: 20px;
-}
-
-.bck-box-11 .bck-box-1 .bck-title {
-	color: #dc4f24;
-    font-size: 2rem;
-    text-align: left;
-    background-color: transparent;
-    padding: 10px;
-    padding-left: 50px;
-    font-weight: 800;
-}
-
-.bck-box-11 .bck-box.bck-box-1 .bck-content {
-	padding: 10px;
-	border-bottom: 2px solid #dc4f24;
-	border-radius: 0;
-}
-
-.bck-box-11 .bck-box-1 {
-	background: transparent;
-}
-
-/*Caja 1 en caja 13*/
-
-.bck-box-13 .bck-box-1 .bck-title:before {
-	content: " ";
-	position: absolute;
-	padding: 17px;
-	background-image: url(imagenes/engrupo_mapas_naranja.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-	margin-top: -3px;
-	margin-left: -40px;
-	display: block;
-}
-
-.bck-box-13 .bck-box .bck-box-1 {
-	min-height: 80px;
-	margin-top: 20px;
-}
-
-.bck-box-13 .bck-box-1 .bck-title {
-	color: #dc4f24;
-    font-size: 2rem;
-    text-align: left;
-    background-color: transparent;
-    padding: 10px;
-    padding-left: 50px;
-    font-weight: 800;
-}
-
-.bck-box-13 .bck-box.bck-box-1 .bck-content {
-	padding: 10px;
-	border-bottom: 2px solid #dc4f24;
-	border-radius: 0;
-}
-
-.bck-box-13 .bck-box-1 {
-	background: transparent;
-}
-
 /*CAJA 2*/
 .bck-box.bck-box-2 {
-	background: #DC4F24;
     border: none;
     margin-top: 20px;
-    border-radius: 15px;
-    color: #fff;
+    border-radius: 0px;
+    color: #333;
 }
 
 .bck-box.bck-box-2 .bck-content {
-	font-family: 'Conv_TypeType-TT_Rounds';
-	color: #fff;
-    background: #DC4F24;
-    font-size: 2.1rem;
-    font-weight: bold;
-    padding-top: 4px;
-    padding-left: 20px;
-    border-radius: 15px;
+	color: #333
+    background: #E2EEF5;
+    padding: 20px;
+    border-radius: 0px;
 }
 
 .bck-box.bck-box-2 .bck-title {
-	color: #fff;
-    background: #DC4F24;
-    margin-bottom: 0;
-    font-size: 1.5rem;
-    padding: 15px 45px 0px 55px;
-    font-weight: 800;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+	color: #333;
+    background: #6CAAC7;
+    padding: 20px;
 }
 
-.bck-box.bck-box-2 .bck-title:before {
-	content: " ";
+.bck-box.bck-box-2 .bck-title:after {
+	content: "+";
     position: absolute;
     padding: 15px;
-    background: url(imagenes/foro_mapas.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: -3px;
-    margin-left: -35px;
 }
 
 /*CAJA 3*/
