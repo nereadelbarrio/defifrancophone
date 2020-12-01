@@ -1,4 +1,4 @@
-/*Estilo MAPAS - CSS*/
+/*Estilo DEFI FRANCOOPHONE - CSS*/
 
 /* Fonts */
 
@@ -7,6 +7,166 @@ b,
 strong {
 	font-weight: bold;
 }
+
+@font-face {
+	font-family: 'Conv_Stag-Sans';
+	src: url('fonts/Stag-Sans-Bold.eot');
+	src: local('☺'), 
+	url('fonts/Stag-Sans-Bold.woff') format('woff'), 
+	url('fonts/Stag Sans-Bold.ttf') format('truetype'),
+	url('fonts/Stag Sans-Bold.svg') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Conv_Stag-Sans';
+	src: url('fonts/Stag-Sans-Bold-Italic.eot');
+	src: local('☺'), 
+	url('fonts/Stag-Sans-Bold-Italic.woff') format('woff'), 
+	url('fonts/Stag-Sans-Bold-Italic.ttf') format('truetype'), 
+	url('fonts/Stag-Sans-Bold-Italic.svg') format('svg');
+	font-weight: 900;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'Conv_Stag-Sans';
+	src: url('fonts/Stag-Sans-Book-Italic.eot');
+	src: local('☺'), 
+	url('fonts/Stag-Sans-Book-Italic.woff') format('woff'), 
+	url('fonts/Stag-Sans-Book-Italic.ttf') format('truetype'), 
+	url('fonts/Stag-Sans-Book-Italic.svg') format('svg');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Conv_Stag-Sans';
+	src: url('fonts/Stag-Sans-Light.eot');
+	src: local('☺'), 
+	url('fonts/Stag-Sans-Light.woff') format('woff'), 
+	url('fonts/Stag-Sans-Light.ttf') format('truetype'), 
+	url('fonts/Stag-Sans-Light.svg') format('svg');
+	font-weight: 100;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Conv_Stag-Sans';
+	src: url('fonts/Stag-Sans-Medium.eot');
+	src: local('☺'), 
+	url('fonts/Stag-Sans-Medium.woff') format('woff'), 
+	url('fonts/Stag-Sans-Medium.ttf') format('truetype'), 
+	url('fonts/Stag-Sans-Medium.svg') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Stag-Sans';
+	src: url('fonts/Stag-Sans-Medium-Italic.eot');
+	src: local('☺'), 
+	url('fonts/Stag-Sans-Medium-Italic.woff') format('woff'), 
+	url('fonts/Stag-Sans-Medium-Italic.ttf') format('truetype'), 
+	url('fonts/Stag-Sans-Medium-Italic.svg') format('svg');
+	font-weight: 600;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: 'Conv_Stag-Sans';
+	src: url('fonts/Stag-Sans-Semibold-Italic.eot');
+	src: local('☺'), 
+	url('fonts/Stag-Sans-Semibold-Italic.woff') format('woff'), 
+	url('fonts/Stag-Sans-Semibold-Italic.ttf') format('truetype'), 
+	url('fonts/Stag-Sans-Semibold-Italic.svg') format('svg');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Conv_Stag';
+	src: url('fonts/Stag-Bold-2.eot');
+	src: local('☺'), 
+	url('fonts/Stag-Bold-2.woff') format('woff'), 
+	url('fonts/Stag-Bold-2.ttf') format('truetype'), 
+	url('fonts/Stag-Bold-2.svg') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Conv_Stag';
+	src: url('fonts/Stag-Book-2.eot');
+	src: local('☺'), 
+	url('fonts/Stag-Book-2.woff') format('woff'), 
+	url('fonts/Stag-Book-2.ttf') format('truetype'), 
+	url('fonts/Stag-Book-2.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Stag';
+	src: url('fonts/Stag-Medium-2.eot');
+	src: local('☺'), 
+	url('fonts/Stag-Medium-2.woff') format('woff'), .
+	url('fonts/Stag-Medium-2.ttf') format('truetype'), 
+	url('fonts/Stag-Medium-2.svg') format('svg');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Stag';
+	src: url('fonts/Stag-MediumItalic.eot');
+	src: local('☺'), 
+	url('fonts/Stag-MediumItalic.woff') format('woff'), 
+	url('fonts/Stag-MediumItalic.ttf') format('truetype'), 
+	url('fonts/Stag-MediumItalic.svg') format('svg');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Conv_StagSans-Black';
+	src: url('fonts/StagSans-Black.eot');
+	src: local('☺'), 
+	url('fonts/StagSans-Black.woff') format('woff'), 
+	url('fonts/StagSans-Black.ttf') format('truetype'), 
+	url('fonts/StagSans-Black.svg') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_StagSans-Book';
+	src: url('fonts/StagSans-Book.eot');
+	src: local('☺'), 
+	url('fonts/StagSans-Book.woff') format('woff'), 
+	url('fonts/StagSans-Book.ttf') format('truetype'), 
+	url('fonts/StagSans-Book.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_StagSans-Semibold';
+	src: url('fonts/StagSans-Semibold.eot');
+	src: local('☺'), 
+	url('fonts/StagSans-Semibold.woff') format('woff'), 
+	url('fonts/StagSans-Semibold.ttf') format('truetype'), 
+	url('fonts/StagSans-Semibold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
 
 @font-face {
 	font-family: 'Conv_marydale';
@@ -126,6 +286,7 @@ body {
 	font-weight: normal;
 	text-align: left;
 	color: #000;
+	font-family: 'Conv_Stag-Sans'; 
 }
 
 .slide-wrapper {
