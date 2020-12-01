@@ -1389,6 +1389,11 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     width: 20%;
     position: absolute;
     z-index: 1;
+    font-size: 1.8rem;
+}
+
+.bck-box-4 .bck-title p {
+	margin-bottom: 5px;
 }
 
 .bck-box-4 .bck-title:after {
@@ -1397,13 +1402,13 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     background-repeat: no-repeat;
     background-position-y: bottom;
     background-size: contain;
-    padding: 100%;
+    padding: 90%;
     position: relative;
 }
 
 .bck-box.bck-box-4 .bck-content {
 	padding: 20px;
-    padding-left: 22%;
+    padding-left: 24%;
     border-radius: 0px;
     border: 3px dashed #2B7239;
     float: left;
