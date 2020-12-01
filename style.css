@@ -1171,12 +1171,11 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 #actividad .popover-content ul.bck-ul-4 li:before,
 #actividad .content .workspace ul li ul.bck-ul-4 li:before {
     content: "";
+    position: absolute;
     background-color: #fff;
     border-radius: 100%;
-    color: #fff;
     width: 6px;
     height: 6px;
-    position: absolute;
     margin-top: 1px;
     margin-left: -5px;
     background: transparent;
