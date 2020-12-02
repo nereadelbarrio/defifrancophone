@@ -1482,14 +1482,14 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 }
 
 
-/*CAJA4*/
+/*CAJA 4*/
 .bck-box.bck-box-4 {
 	background: #fff;
     border: none;
     text-align: left;
     border-radius: 0px;
-    -webkit-box-shadow: 5px 5px 15px 5px #B8B8B8;
-	box-shadow: 5px 5px 15px 5px #B8B8B8;
+    -webkit-box-shadow: 10px 8px 15px 0px #B8B8B8;
+	box-shadow: 10px 8px 15px 0px #B8B8B8;
 	margin-bottom: 40px;
 }
 
@@ -1649,58 +1649,35 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 }
 
 /*CAJA 9*/
-.bck-box.bck-box-9 {
-	background: #FFE054;
+.bck-box.bck-box-4 {
+	background: #F8F5EF;
     border: none;
     text-align: left;
-    border-radius: 15px;
+    border-radius: 0px;
+    -webkit-box-shadow: 10px 8px 15px 0px #B8B8B8;
+	box-shadow: 10px 8px 15px 0px #B8B8B8;
+	margin-bottom: 40px;
+}
+
+.bck-box-9 .bck-title {
+	border: 0px;
+    padding: 15px 20px 5px 20px;
+    background: #fff;
+    border-radius: 0px;
+}
+
+.bck-box-9 .bck-title:after {
+	display: none;
 }
 
 .bck-box.bck-box-9 .bck-content {
-	padding: 4px 10px 15px;
-	width: 100%;
-	margin-left: 10px;
-	border-radius: 15px;
+	padding: 10px 20px 10px 20px;
+    border-radius: 0px;
+    border: none;
 }
 
-.bck-box.bck-box-9 .bck-title {
-	padding: 15px 45px;
-	padding-bottom: 0;
-    border: 0px;
-    color: #333;
-    font-size: 1.5rem;
-    font-weight: 800;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-.bck-box-9 .bck-title:before {
-	content: " ";
-    position: absolute;
-    padding: 12px;
-    background: url(imagenes/vocabulario_mapas.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: -3px;
-    margin-left: -25px;
-}
-
-/*Caja 9 dentro de caja 6*/
-.bck-box-6 .bck-box-9 .bck-title:before {
-	content: " ";
-    position: absolute;
-    padding: 12px;
-    background: url(imagenes/vocabulario_mapas.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin-top: -3px;
-    margin-left: -25px;
-}
-
-/*Párrafos en caja 9*/
-
-.bck-box.bck-box-9 p {
-	margin-bottom: 5px;
+.bck-box.bck-box-9 .bck-title:before {
+	 display: none;
 }
 
 
