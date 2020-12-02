@@ -1479,6 +1479,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 
 .bck-box.bck-box-7 {
 	min-height: 0;
+	background-color: #fff;
 	margin-top: 15px;
 	-moz-box-shadow: 0 20px 0 -10px #fffefe,0 -20px 0 -10px #fff,21px 0 0 -10px #fff,-21px 0 0 -10px #fff,0 0 0 5px #ffed00,5px 5px 5px 0 transparent;
     -webkit-box-shadow: 0 20px 0 -10px #fffefe, 0 -20px 0 -10px #fff, 21px 0 0 -10px #fff, -21px 0 0 -10px #fff, 0 0 0 5px #2b7239, 5px 5px 5px 0 transparent;
@@ -1490,7 +1491,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     font-size: 1.8rem;
     font-weight: 800;
     text-align: left;
-    background-color: transparent;
+    background-color: #fff;
     padding: 10px 10px 5px 5px;
     padding-left: 5px;
     border-bottom: none;
