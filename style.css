@@ -1275,6 +1275,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 
 .bck-box.bck-box-1 .bck-content {
 	padding: 25px 15px 15px 60px;
+	border: none;
 }
 
 .bck-box.bck-box-1 .bck-content:before {
