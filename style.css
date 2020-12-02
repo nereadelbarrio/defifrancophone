@@ -1434,6 +1434,11 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	background-color: #2B7239;
 	padding: 20px;
 	text-align: left;
+	width: fit-content;
+	-webkit-width: fit-content;
+	-moz-width: fit-content;
+	-ms-width: fit-content;
+	-o-width: fit-content;
 }
 
 .bck-box-5 .bck-title:before {
