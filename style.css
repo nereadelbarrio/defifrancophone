@@ -712,16 +712,26 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 
 .bck-enfasis-4 {
 	background-color: #000;
-	font-weight: bold;
-	color: #fff;
-	border-radius: 15px;
-	padding-left: 2px 5px 2px 5px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+    padding: 4px 7px 2px 8px;
+    font-size: 1.4rem;
 }
 
 .bck-enfasis-5 {
-	font-family: 'Conv_marydale', Sans-Serif;
-	color: #415799;
-	font-size: 2rem;
+	font-family: 'Conv_Stag-Sans';
+	color: #2b7239;
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+.bck-enfasis-5:before {
+	content: "";
+	background-image: url(imagenes/icono_exclamacion_defifrancophone.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
 }
 
 .bck-enfasis-6 {
