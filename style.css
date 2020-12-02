@@ -679,7 +679,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     color: #fff;
 }
 
-.bck-enfasis {
+.bck-enfasis-1 {
 	color: #31A2C7;
 	font-weight: bold;
 }
@@ -1240,7 +1240,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 #actividad .popover-content ul.bck-ul-5 li:before,
 #actividad .content .workspace ul li ul.bck-ul-5 li:before {
     content: "";
-    background-image: url(imagenes/icono_escribir.png);
+    background-image: url(imagenes/icono_escribir_defifrancophone.png);
     background-repeat: no-repeat;
     background-size: contain;
     padding: 13px;
@@ -1280,7 +1280,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 
 .bck-box.bck-box-1 .bck-content:before {
 	content: "";
-	background-image: url(imagenes/icono_bocadillo_marron.png);
+	background-image: url(imagenes/icono_bocadillo_marron_defifrancophone.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 	padding: 20px;
@@ -1425,7 +1425,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     position: absolute;
     padding: 43px;
     background-color: #2B7239;
-    background-image: url(imagenes/icono_diana.png);
+    background-image: url(imagenes/icono_diana_defifrancophone.png);
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: -15px;
@@ -1523,6 +1523,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	padding: 10px;
 	padding-left: 20px;
 	border-radius: 0px;
+	font-size: 1.8rem;
 }
 
 .bck-box-8 .bck-content {
@@ -1921,54 +1922,55 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	vertical-align: top;
 }
 
-.item-container .icon-critical:before {
-	background-image: url(imagenes/criticalthinking_naranja.png);
+.item-container .icon-video:before {
+	background-image: url(imagenes/icono_video_defifrancophone.png);
 	width: 160px;
     height: 25px;
     vertical-align: top;
     margin-right: 5px;
 }
 
-.item-container .icon-critical-gold:before {
-	background-image: url(imagenes/criticalthinking_naranjaclaro.png);
+.item-container .icon-cesta-letras:before {
+	background-image: url(imagenes/icono_cesta_defifrancophone.png);
 	width: 160px;
     height: 25px;
     vertical-align: top;
     margin-right: 5px;
 }
 
-.item-container .icon-critical-verde:before {
-	background-image: url(imagenes/criticalthinking_verde.png);
+.item-container .icon-exclamacion-verde:before {
+	background-image: url(imagenes/icono_exclamacion_defifrancophone.png);
 	width: 160px;
     height: 25px;
     vertical-align: top;
     margin-right: 5px;
 }
 
-.item-container .icon-critical-negro:before {
-	background-image: url(imagenes/criticalthinking_negro.png);
+.item-container .icon-campana-verde:before {
+	background-image: url(imagenes/icono_campana_defifrancophone.png);
 	width: 160px;
     height: 25px;
     vertical-align: top;
     margin-right: 5px;
 }
 
-.item-container .icon-critical-azul:before {
-	background-image: url(imagenes/criticalthinking_azul.png);
+.item-container .icon-lapiz:before {
+	background-image: url(imagenes/icono_escribir_defifrancophone.png);
 	width: 160px;
     height: 25px;
     vertical-align: top;
     margin-right: 5px;
 }
 
-.item-container .icon-search:before {
-	background-image: url(imagenes/search_naranja.png);
+.item-container .icon-thefrenchhub:before {
+	background-image: url(imagenes/icono_thefrenchhub_defifrancophone.png);
 	width: 105px;
     height: 23px;
     vertical-align: top;
     margin-right: 5px;
     margin-top: 1px;
 }
+
 
 .item-container .icon-search-naranjaclaro:before {
 	background-image: url(imagenes/search_naranjaclaro.png);
