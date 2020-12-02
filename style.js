@@ -22,6 +22,7 @@
 				{ name: 'Título 5', element: 'h3', attributes: { 'class': 'bck-title bck-title-5'} },
 				{ name: 'Título 6', element: 'h3', attributes: { 'class': 'bck-title bck-title-6'} },
 				{ name: 'Título 7', element: 'h3', attributes: { 'class': 'bck-title bck-title-7'} },
+				{ name: 'Título 8', element: 'h3', attributes: { 'class': 'bck-title bck-title-8'} },
 
 				{ name: 'Énfasis 1', element: 'span', attributes: { 'class': 'bck-enfasis-1'} },
 				{ name: 'Énfasis 2', element: 'span', attributes: { 'class': 'bck-enfasis-2'} },
