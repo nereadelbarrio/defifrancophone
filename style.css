@@ -1269,8 +1269,8 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 }
 
 .bck-box .bck-box-1 {
-    padding: 20px;
     background-color: #F1EBDE;
+    border: none;
 }
 
 .bck-box.bck-box-1 .bck-content {
@@ -1378,11 +1378,12 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     border-radius: 0px;
     -webkit-box-shadow: 5px 5px 15px 5px #B8B8B8;
 	box-shadow: 5px 5px 15px 5px #B8B8B8;
+	margin-bottom: 40px;
 }
 
 .bck-box-4 .bck-title {
 	border: 0px;
-    padding: 20px;
+    padding: 15px 20px 5px 20px;
     background: #fff;
     border-radius: 0px;
 }
@@ -1392,7 +1393,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 }
 
 .bck-box.bck-box-4 .bck-content {
-	padding: 20px;
+	padding: 10px 20px 10px 20px;
     border-radius: 0px;
     border: none;
 }
@@ -1405,7 +1406,6 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 /*CAJA 5*/
 .bck-box.bck-box-5 {
 	min-height: 0;
-	padding: 20px;
 	background-color: #fff;
 	border-radius: 0px;
 }
