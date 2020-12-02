@@ -711,8 +711,11 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 }
 
 .bck-enfasis-4 {
-	background-color: #ffcca3;
+	background-color: #000;
 	font-weight: bold;
+	color: #fff;
+	border-radius: 15px;
+	padding-left: 2px 5px 2px 5px;
 }
 
 .bck-enfasis-5 {
