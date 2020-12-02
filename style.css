@@ -523,7 +523,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 
 /*Icono audio*/
 #actividad .player.audio {
-	background-image: url(imagenes/img_audio.png);
+	background-image: url(imagenes/icono_audio_defifrancophone.png);
 	color: #fff;
 }
 
@@ -1924,7 +1924,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 
 .item-container .icon-video:before {
 	background-image: url(imagenes/icono_video_defifrancophone.png);
-	width: 160px;
+	width: 30px;
     height: 25px;
     vertical-align: top;
     margin-right: 5px;
@@ -1932,15 +1932,15 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 
 .item-container .icon-cesta-letras:before {
 	background-image: url(imagenes/icono_cesta_defifrancophone.png);
-	width: 160px;
-    height: 25px;
+	width: 60px;
+    height: 60px;
     vertical-align: top;
     margin-right: 5px;
 }
 
 .item-container .icon-exclamacion-verde:before {
 	background-image: url(imagenes/icono_exclamacion_defifrancophone.png);
-	width: 160px;
+	width: 25px;
     height: 25px;
     vertical-align: top;
     margin-right: 5px;
@@ -1948,7 +1948,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 
 .item-container .icon-campana-verde:before {
 	background-image: url(imagenes/icono_campana_defifrancophone.png);
-	width: 160px;
+	width: 25px;
     height: 25px;
     vertical-align: top;
     margin-right: 5px;
@@ -1956,7 +1956,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 
 .item-container .icon-lapiz:before {
 	background-image: url(imagenes/icono_escribir_defifrancophone.png);
-	width: 160px;
+	width: 25px;
     height: 25px;
     vertical-align: top;
     margin-right: 5px;
@@ -1964,7 +1964,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 
 .item-container .icon-thefrenchhub:before {
 	background-image: url(imagenes/icono_thefrenchhub_defifrancophone.png);
-	width: 105px;
+	width: 125px;
     height: 23px;
     vertical-align: top;
     margin-right: 5px;
