@@ -1535,7 +1535,6 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	content: "";
     position: absolute;
     padding: 43px;
-    background-color: #2B7239;
     background-image: url(imagenes/icono_diana_defifrancophone.png);
     background-repeat: no-repeat;
     background-size: contain;
