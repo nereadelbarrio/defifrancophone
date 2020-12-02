@@ -1421,27 +1421,34 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 }
 
 
-/*CAJA5*/
+/*CAJA 5*/
 .bck-box.bck-box-5 {
 	min-height: 0;
 	margin-top: 15px;
 }
 
 .bck-box-5 .bck-title {
-	border-bottom: 0px solid #eee;
+	border-bottom: none;
 	color: #fff;
-	font-size: 2.1rem;
-	font-weight: bold;
-	background-color: #bf0811;
-	padding: 10px;
-	text-align: center;
+	font-size: 1.8rem;
+	background-color: #2B7239;
+	padding: 20px;
 }
 
 .bck-box.bck-box-5 {
-	padding: 10px;
-	background-color: #FBEDE9;
-	top: -20px;
-	border-radius: 0px 0px 15px 15px;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 0px;
+}
+
+.bck-box.bck-box-5:before {
+	content: "";
+	padding: 50px;
+	background-color: #2B7239;
+	background-image: url(imagenes/icono_diana.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: contain;
 }
 
 /*CAJA 6*/
