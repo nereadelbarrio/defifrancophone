@@ -611,6 +611,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     background-repeat: no-repeat;
 }
 
+/*TITULO 1*/
 
 .bck-title-1 {
 	color: #fff;
@@ -629,11 +630,15 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	display: none;
 }
 
+/*TITULO 2*/
+
 .bck-title-2 {
 	font-weight: bold;
 	font-size: 6rem;
 	border-bottom: none;
 }
+
+/*TITULO 3*/
 
 .bck-title-3 {
 	font-weight: bold;
@@ -641,11 +646,15 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     border-bottom: none;
 }
 
+/*TITULO 4*/
+
 .bck-title-4 {
 	font-weight: bold;
 	font-size: 4.3rem;
 	border-bottom: none;
 }
+
+/*TITULO 5*/
 
 .bck-title-5 {
 	font-weight: bold;
@@ -663,6 +672,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     -moz-width: fit-content;
 }
 
+/*TITULO 6*/
 
 .bck-title-6 {
 	color: #211915;
@@ -672,6 +682,8 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     margin-bottom: 20px;
 }
 
+/*TITULO 7*/
+
 .bck-title-7 {
 	font-weight: bold;
     font-size: 2.1rem;
@@ -679,11 +691,24 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     color: #fff;
 }
 
+/*TITULO 8*/
+
+.bck-title-8 {
+	font-weight: bold;
+    font-size: 2.1rem;
+    border-bottom: none;
+    color: #3986C8;
+}
+
+/*ENFASIS 1*/
+
 .bck-enfasis-1 {
 	color: #706F6F;
     font-weight: 600;
     font-size: 1.6rem;
 }
+
+/*ENFASIS 2*/
 
 .bck-enfasis-2 {
 	color: #333;
@@ -691,6 +716,8 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     font-family: 'Conv_Stag-Sans';
     vertical-align: super;
 }
+
+/*ENFASIS 3*/
 
 .bck-enfasis-3 {
 	color: #2b7239;
@@ -710,6 +737,8 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     margin-top: 5px;
 }
 
+/*ENFASIS 4*/
+
 .bck-enfasis-4 {
 	background-color: #000;
     font-weight: bold;
@@ -718,6 +747,8 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     padding: 4px 7px 2px 8px;
     font-size: 1.4rem;
 }
+
+/*ENFASIS 5*/
 
 .bck-enfasis-5 {
 	font-family: 'Conv_Stag-Sans';
@@ -737,6 +768,8 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     margin-left: -25px;
 }
 
+/*ENFASIS 6*/
+
 .bck-enfasis-6 {
 	font-family: 'Conv_Stag-Sans';
     color: #2b7239;
@@ -755,6 +788,8 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     margin-left: -25px;
 }
 
+/*ENFASIS 7*/
+
 .bck-enfasis-7 {
 	font-weight: bold;
 	color: #fff;
@@ -772,10 +807,12 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     margin-top: 2px;
 }
 
+/*ENFASIS 8*/
+
 .bck-enfasis-8 {
 	color: #333;
 	background-color: #DBDED2;
-	padding: 7px 10px 5px 15px;
+	padding: 7px 10px 5px 25px;
 }
 
 .bck-enfasis-8:before {
@@ -784,21 +821,29 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     padding: 9px;
     border-radius: 100%;
     position: absolute;
-    margin-left: 6px;
+    margin-left: -28px;
     margin-top: 2px;
 }
+
+/*ENFASIS 9*/
 
 .bck-enfasis-9 {
 	font-weight: 800;
 }
 
+/*ENFASIS 10*/
+
 .bck-enfasis-10 {
 	background-color: #99D5B5;
 }
 
+/*ENFASIS 11*/
+
 .bck-enfasis-11 {
 	color: #373636;
 }
+
+/*ENFASIS 12*/
 
 .bck-enfasis-12 {
 	color: #fff;
@@ -811,10 +856,14 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     top: -5px;
 }
 
+/*ENFASIS 13*/
+
 .bck-enfasis-13 {
 	font-style: italic;
 	font-size: 1.8rem;
 }
+
+/*ENFASIS 14*/
 
 .bck-enfasis-14{
 	font-weight: bold;
