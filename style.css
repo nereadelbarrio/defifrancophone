@@ -1433,6 +1433,11 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	font-size: 1.8rem;
 	background-color: #2B7239;
 	padding: 20px;
+	text-align: left;
+}
+
+.bck-box-5 .bck-content {
+	border: 3px dashed #2B7239;
 }
 
 .bck-box.bck-box-5 {
@@ -1443,6 +1448,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 
 .bck-box.bck-box-5:before {
 	content: "";
+	position: absolute;
 	padding: 50px;
 	background-color: #2B7239;
 	background-image: url(imagenes/icono_diana.png);
