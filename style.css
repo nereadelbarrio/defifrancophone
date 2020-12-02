@@ -1428,7 +1428,9 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: -15px;
-    right: 5%;
+    margin-right: 25px;
+    right: 0;
+    z-index: 1;
 }
 
 .bck-box-5 .bck-title p {
