@@ -1395,10 +1395,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	padding: 20px;
     border-radius: 0px;
     border: none;
-    float: left;
-    width: 100%;
 }
-
 
 .bck-box.bck-box-4 .bck-title:before {
 	 display: none;
@@ -1408,7 +1405,9 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 /*CAJA 5*/
 .bck-box.bck-box-5 {
 	min-height: 0;
-	margin-top: 15px;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 0px;
 }
 
 .bck-box-5 .bck-title {
@@ -1440,11 +1439,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	border: 3px dashed #2B7239;
 }
 
-.bck-box.bck-box-5 {
-	padding: 20px;
-	background-color: #fff;
-	border-radius: 0px;
-}
+
 
 
 /*CAJA 6*/
