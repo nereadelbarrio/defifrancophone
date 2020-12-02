@@ -1436,6 +1436,17 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	text-align: left;
 }
 
+.bck-box-5 .bck-title:before {
+	content: "";
+	position: absolute;
+	padding: 50px;
+	background-color: #2B7239;
+	background-image: url(imagenes/icono_diana.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: contain;
+}
+
 .bck-box-5 .bck-title p {
 	margin-bottom: 5px;
 }
@@ -1450,16 +1461,6 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	border-radius: 0px;
 }
 
-.bck-box.bck-box-5:before {
-	content: "";
-	position: absolute;
-	padding: 50px;
-	background-color: #2B7239;
-	background-image: url(imagenes/icono_diana.png);
-    background-repeat: no-repeat;
-    background-position-y: bottom;
-    background-size: contain;
-}
 
 /*CAJA 6*/
 .bck-box-6 .bck-title:before {
