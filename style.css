@@ -1448,37 +1448,27 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 
 /*CAJA 6*/
 .bck-box-6 .bck-title:before {
-	content: " ";
-	position: absolute;
-	padding: 15px;
-	background-image: url(imagenes/enparejas_mapas_naranja.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-	margin-top: -3px;
-	margin-left: -35px;
-	display: block;
+	display: none;
 }
 
 .bck-box .bck-box-6 {
-	min-height: 80px;
 	margin-top: 20px;
 }
 
 .bck-box-6 .bck-title {
-	color: #dc4f24;
+	color: #333;
 	font-size: 1.5rem;
 	font-weight: 800;
 	text-align: left;
 	background-color: transparent;
 	padding: 10px;
-	padding-left: 50px;
-	border-bottom: 2px solid transparent;
-	margin-bottom: 0px;
+	padding-left: 20px;
+	border-bottom: none;
 }
 
 .bck-box-6 .bck-content {
-	background: transparent;
-	border-bottom: 2px solid #dc4f24;
+	background: #FFE8B5;
+	border-bottom: none;
 }
 
 .bck-box-6 {
