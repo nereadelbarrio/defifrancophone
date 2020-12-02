@@ -1436,6 +1436,10 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	text-align: left;
 }
 
+.bck-box-5 .bck-title {
+	margin-bottom: 5px;
+}
+
 .bck-box-5 .bck-content {
 	border: 3px dashed #2B7239;
 }
