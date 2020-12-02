@@ -696,16 +696,18 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	color: #2b7239;
     font-family: 'Conv_Stag-Sans';
     font-size: 1.6rem;
-    margin-left: 25px
+    margin-left: 20px;
 }
 
 .bck-enfasis-3:before {
 	content: "";
-	background-image: url(imagenes/icono_flecha_verde_defifrancophone.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-	position: absolute;
-	padding: 20px;
+    background-image: url(imagenes/icono_flecha_verde_defifrancophone.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    padding: 7px;
+    margin-left: -20px;
+    margin-top: 5px;
 }
 
 .bck-enfasis-4 {
