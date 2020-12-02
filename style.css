@@ -533,8 +533,8 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 #actividad .player.video,
 #help-panel-content .player,
 #remote-alert-modal-rich .player {
-	height: 25px !important;
-	width: 27px;
+	height: 30px !important;
+	width: 30px;
 	display: inline-block;
 	background-repeat: no-repeat;
 	border-radius: 100%;
