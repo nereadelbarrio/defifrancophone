@@ -2019,7 +2019,7 @@ th {
 .bck-dropdown-1 .bck-dropdown-content {
     background-color: #fff;
     border: 1px solid #9d9d9c;
-    padding-left: 17px;
+    padding-left: 20px;
     max-height: 800%;
 }
 
@@ -2092,8 +2092,9 @@ th {
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
-    padding-top: 20px;
+    padding-top: 10px;
     border-top: 0px;
+    padding-left: 20px;
 }
 
 /*Desplegable 3*/
@@ -2135,9 +2136,11 @@ th {
 
 .bck-dropdown-3 .bck-dropdown-content {
 	background-color: #fff;
-	border-radius: 0;
-	overflow: inherit;
-	border: 1px solid #2b7239;
+    border-radius: 0;
+    overflow: inherit;
+    border: 1px solid #2b7239;
+    padding: 10px;
+    padding-left: 20px;
 }
 
 .bck-dropdown-3 .bck-dropdown-content p {
@@ -2187,8 +2190,10 @@ th {
 
 .bck-dropdown-4 .bck-dropdown-content {
 	background-color: #fff;
-	border-radius: 0;
-	overflow: inherit;
+    border-radius: 0;
+    overflow: inherit;
+    padding: 10px;
+    padding-left: 20px;
 }
 
 .bck-dropdown-4 .bck-dropdown-content p {
