@@ -836,7 +836,9 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	font-weight: 600;
 }
 
-
+.bck-enfasis-9 {
+	font-family: 'Conv_Stag'
+}
 
 /*----------------------LISTAS-----------------------*/
 #actividad .content .cke_contents .bck-ol li:before,
@@ -1629,6 +1631,40 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 }
 
 .bck-box.bck-box-9 .bck-title:before {
+	 display: none;
+}
+
+/*CAJA 10*/
+
+.bck-box.bck-box-10 {
+	background: #2B7239;
+    border: none;
+    text-align: left;
+    border-radius: 0px;
+}
+
+.bck-box-10 .bck-title {
+	border: 0px;
+    padding: 15px 20px 5px 20px;
+    background: #2B7239;
+    border-radius: 0px;
+    text-align: left;
+    color: #fff;
+}
+
+.bck-box-10 .bck-title:after {
+	display: none;
+}
+
+.bck-box.bck-box-10 .bck-content {
+	padding: 10px 20px 10px 20px;
+    border-radius: 0px;
+    border: none;
+    background-color: #2B7239;
+    color: #fff;
+}
+
+.bck-box.bck-box-10 .bck-title:before {
 	 display: none;
 }
 
