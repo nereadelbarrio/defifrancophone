@@ -2128,18 +2128,43 @@ th {
 
 .celda-1 {
 	background: #B5BFA4;
-	border: 2px solid #fff;
+	border: 3px solid #fff;
 }
 
 /*Celda 2*/
 
+.celda-2 {
+	background: #DBDED2;
+	border: 3px solid #fff;
+}
+
 /*Celda 3*/
+
+.celda-3 {
+	background: #EDEFE9;
+	border: 3px solid #fff;
+}
 
 /*Celda 4*/
 
+.celda-4 {
+	background: #FFDE92;
+	border: 3px solid #fff;
+}
+
 /*Celda 5*/
 
+.celda-5 {
+	background: #FFE8B5;
+	border: 3px solid #fff;
+}
+
 /*Celda 6*/
+
+.celda-6 {
+	background: #FFEFCB;
+	border: 3px solid #fff;
+}
 
 /*Boton toc - boton reininciar ejercicio*/
 .btn-primary {
