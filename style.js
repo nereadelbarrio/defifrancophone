@@ -34,10 +34,6 @@
 				{ name: 'Énfasis 8', element: 'span', attributes: { 'class': 'bck-enfasis-8'} },
 				{ name: 'Énfasis 9', element: 'span', attributes: { 'class': 'bck-enfasis-9'} },
 				{ name: 'Énfasis 10', element: 'span', attributes: { 'class': 'bck-enfasis-10'} },
-				{ name: 'Énfasis 11', element: 'span', attributes: { 'class': 'bck-enfasis-11'} },
-				{ name: 'Énfasis 12', element: 'span', attributes: { 'class': 'bck-enfasis-12'} },
-				{ name: 'Énfasis 13', element: 'span', attributes: { 'class': 'bck-enfasis-13'} },
-				{ name: 'Énfasis-Tutorial', element: 'span', attributes: { 'class': 'bck-enfasis-14'} },
 
 				{ name: 'Lista Ordenada 1', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-1' } },
 				{ name: 'Lista Ordenada 2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol-2' } },
@@ -61,10 +57,6 @@
 				{ name: 'Caja 7', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-7' } },
 				{ name: 'Caja 8', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-8' } },
 				{ name: 'Caja 9', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-9' } },
-				{ name: 'Caja 10', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-10' } },
-				{ name: 'Caja 11', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-11' } },
-				{ name: 'Caja 12', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-12' } },
-				{ name: 'Caja 13', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-13' } },
 
 				{ name: 'Icono Vídeo', element: 'span', attributes: { 'class': 'icon icon-video' } },
 				{ name: 'Icono Cesta letras', element: 'span', attributes: { 'class': 'icon icon-cesta-letras' } },
@@ -72,13 +64,6 @@
 				{ name: 'Icono Campana verde', element: 'span', attributes: { 'class': 'icon icon-campana-verde' } },
 				{ name: 'Icono Lápiz', element: 'span', attributes: { 'class': 'icon icon-lapiz' } },
 				{ name: 'Icono The French Hub', element: 'span', attributes: { 'class': 'icon icon-thefrenchhub' } },
-
-				{ name: 'Icono Search Naranja claro', element: 'span', attributes: { 'class': 'icon icon-search-naranjaclaro' } },
-				{ name: 'Icono Search Verde', element: 'span', attributes: { 'class': 'icon icon-search-verde' } },
-				{ name: 'Icono Search Negro', element: 'span', attributes: { 'class': 'icon icon-search-negro' } },
-				{ name: 'Icono Search Azul', element: 'span', attributes: { 'class': 'icon icon-search-azul' } },
-				{ name: 'Icono Video Oscuro', element: 'span', attributes: { 'class': 'icon icon-video-oscuro' } },
-				{ name: 'Icono Bocadillo Blanco', element: 'span', attributes: { 'class': 'icon icon-bocadillo-blanco' } },
 
 				{ name: 'Celda 1', element: 'td', attributes: { 'class': 'celda-1' } },
 				{ name: 'Celda 2', element: 'td', attributes: { 'class': 'celda-2' } },
