@@ -2028,6 +2028,13 @@ th {
     padding-left: 11px;
 }
 
+.bck-dropdown-1 .bck-dropdown-icon > .fa {
+    border: 0px solid white;
+    padding: 0px;
+    padding-right: 7px;
+    margin-left: -3px;
+}
+
 /*Desplegable 2*/
 .bck-dropdown.bck-dropdown-2 {
 	background-color: #000;
