@@ -2007,11 +2007,25 @@ th {
 
 .bck-dropdown-1 .bck-dropdown-icon {
 	background-color: #9D9D9C;
+	display: inline-block;
+	float: right;
 }
 
 .bck-dropdown-1 .fa-chevron-up:before, 
 .bck-dropdown-1 .fa-chevron-down:before {
     font-size: 1.8rem;
+}
+
+.bck-dropdown-1 .bck-dropdown-content {
+    background-color: #fff;
+    border: 1px solid #9d9d9c;
+    padding-left: 17px;
+    max-height: 800%;
+}
+
+.bck-dropdown-1 .bck-dropdown-titulo {
+    font-size: 1.8rem;
+    padding-left: 11px;
 }
 
 /*Desplegable 2*/
@@ -2023,6 +2037,7 @@ th {
 	background-color: #000;
 	display: inline-block;
 	height: auto;
+	float: right;
 }
 
 .bck-dropdown-2 .bck-dropdown-button {
@@ -2030,7 +2045,7 @@ th {
     background: #000;
     color: #fff;
     text-align: left;
-    border: none;
+    border: 2px solid #000;
     border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -2039,6 +2054,7 @@ th {
 .bck-dropdown-2 .bck-dropdown-titulo {
     padding: 0;
     font-size: 1.8rem;
+    padding-left: 10px;
 }
 
 .bck-dropdown-2 .bck-dropdown-icon>.fa {
@@ -2059,7 +2075,6 @@ th {
 
 .bck-dropdown-2 .fa-chevron-down:before {
     content: "\f078";
-    font-size: 2.0rem;
 }
 
 .bck-dropdown-2 .bck-dropdown-content {
@@ -2084,6 +2099,7 @@ th {
 .bck-dropdown-3 .bck-dropdown-button {
 	margin-top: 0px;
 	font-size: 1.2rem;
+	border: 2px solid #2b7239;
 }
 
 .bck-dropdown-3 .bck-dropdown-icon {
@@ -2114,6 +2130,7 @@ th {
 	background-color: #fff;
 	border-radius: 0;
 	overflow: inherit;
+	border: 1px solid #2b7239;
 }
 
 .bck-dropdown-3 .bck-dropdown-content p {
