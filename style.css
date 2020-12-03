@@ -2028,6 +2028,10 @@ th {
     border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
+}
+
+.bck-dropdown-2 .bck-dropdown-titulo {
+    padding: 0;
     font-size: 1.8rem;
 }
 
