@@ -2122,6 +2122,25 @@ th {
 	padding-left: 10px;
 }
 
+/*CELDAS*/
+
+/*Celda 1*/
+
+.celda-1 {
+	background: #B5BFA4;
+	border: 2px solid #fff;
+}
+
+/*Celda 2*/
+
+/*Celda 3*/
+
+/*Celda 4*/
+
+/*Celda 5*/
+
+/*Celda 6*/
+
 /*Boton toc - boton reininciar ejercicio*/
 .btn-primary {
 	background-color: #428bcac9;
