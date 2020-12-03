@@ -72,12 +72,20 @@
 				{ name: 'Icono Campana verde', element: 'span', attributes: { 'class': 'icon icon-campana-verde' } },
 				{ name: 'Icono Lápiz', element: 'span', attributes: { 'class': 'icon icon-lapiz' } },
 				{ name: 'Icono The French Hub', element: 'span', attributes: { 'class': 'icon icon-thefrenchhub' } },
+
 				{ name: 'Icono Search Naranja claro', element: 'span', attributes: { 'class': 'icon icon-search-naranjaclaro' } },
 				{ name: 'Icono Search Verde', element: 'span', attributes: { 'class': 'icon icon-search-verde' } },
 				{ name: 'Icono Search Negro', element: 'span', attributes: { 'class': 'icon icon-search-negro' } },
 				{ name: 'Icono Search Azul', element: 'span', attributes: { 'class': 'icon icon-search-azul' } },
 				{ name: 'Icono Video Oscuro', element: 'span', attributes: { 'class': 'icon icon-video-oscuro' } },
 				{ name: 'Icono Bocadillo Blanco', element: 'span', attributes: { 'class': 'icon icon-bocadillo-blanco' } },
+
+				{ name: 'Celda 1', element: 'td', attributes: { 'class': 'celda-1' } },
+				{ name: 'Celda 2', element: 'td', attributes: { 'class': 'celda-2' } },
+				{ name: 'Celda 3', element: 'td', attributes: { 'class': 'celda-3' } },
+				{ name: 'Celda 4', element: 'td', attributes: { 'class': 'celda-4' } },
+				{ name: 'Celda 5', element: 'td', attributes: { 'class': 'celda-5' } },
+				{ name: 'Celda 6', element: 'td', attributes: { 'class': 'celda-6' } },
 
 				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown-1' } },
 				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown-2' } },
