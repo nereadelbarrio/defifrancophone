@@ -2002,10 +2002,16 @@ th {
 .bck-dropdown.bck-dropdown-1 {
 	background-color: #9D9D9C;
 	border-radius: 0;
+	border: none;
 }
 
 .bck-dropdown-1 .bck-dropdown-icon {
 	background-color: #9D9D9C;
+}
+
+.bck-dropdown-1 .fa-chevron-up:before, 
+.bck-dropdown-1 .fa-chevron-down:before {
+    font-size: 1.8rem;
 }
 
 /*Desplegable 2*/
@@ -2117,9 +2123,10 @@ th {
 /*Desplegable 4*/
 
 .bck-dropdown.bck-dropdown-4 {
-	background-color: #e58d7c;
-	margin-top: 10px;
-	border-radius: 15px;
+	background-color: #fff;
+    margin-top: 10px;
+    border-radius: 0px;
+    border: 2px solid #2B7239;
 }
 
 .bck-dropdown-4 .bck-dropdown-button {
@@ -2142,36 +2149,20 @@ th {
 .bck-dropdown-4 .fa-chevron-up:before,
 .bck-dropdown-4 .fa-chevron-down:before {
 	font-size: 1.8rem;
-	color: #000;
+	color: #2b7239;
+	font-weight: 600;
 }
 
 .bck-dropdown-4 .bck-dropdown-titulo {
-	font-size: 1.5rem;
-	padding-left: 0px;
-	font-weight: 800;
-	color: #000;
-	margin-left: -3px;
-	margin-top: 5px;
+	color: #2b7239;
+	font-size: 1.8rem;
+	padding-top: 2px;
 }
 
-.bck-dropdown-4 .bck-dropdown-titulo:before {
-	content: " ";
-    position: relative;
-    top: 7px;
-    left: 13px;
-    padding: 10px;
-    margin-right: 20px;
-    background-size: contain;
-    background-image: url(imagenes/vocabulario_mapas.png);
-    background-repeat: no-repeat;
-}
 
 .bck-dropdown-4 .bck-dropdown-content {
-	background-color: #e58d7c;
-	padding-left: 19px;
-	max-height: 800%;
-	border-bottom-left-radius: 15px;
-	border-bottom-right-radius: 15px;
+	background-color: #fff;
+	border-radius: 0;
 	overflow: inherit;
 }
 
