@@ -2200,7 +2200,60 @@ th {
 	margin-bottom: 5px;
 }
 
+/*Desplegable 5*/
 
+.bck-dropdown.bck-dropdown-5 {
+	background-color: #fff;
+    margin-top: 10px;
+    border-radius: 0px;
+    border: 2px solid #000;
+}
+
+.bck-dropdown-5 .bck-dropdown-button {
+	margin-top: 0px;
+	font-size: 1.2rem;
+}
+
+.bck-dropdown-5 .bck-dropdown-icon {
+	background-color: transparent;
+	width: 35px;
+	height: 10px;
+	float: right;
+}
+
+.bck-dropdown-5 .bck-dropdown-icon>.fa {
+	border: 0px solid white;
+	padding-top: 2px;
+}
+
+.bck-dropdown-5 .fa-chevron-up:before,
+.bck-dropdown-5 .fa-chevron-down:before {
+	font-size: 1.8rem;
+	color: #000;
+	font-weight: 600;
+}
+
+.bck-dropdown-5 .bck-dropdown-titulo {
+	color: #000;
+	font-size: 1.8rem;
+	padding-top: 2px;
+	font-weight: 600;
+}
+
+
+.bck-dropdown-5 .bck-dropdown-content {
+	background-color: #fff;
+    border-radius: 0;
+    overflow: inherit;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.bck-dropdown-5 .bck-dropdown-content p {
+	margin-bottom: 5px;
+}
+
+/**/
 
 .fa-times:before {
 	color: #333;
