@@ -828,7 +828,10 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 /*ENFASIS 9*/
 
 .bck-enfasis-9 {
-	color: #E63312;
+	color: #fff;
+	background-color: #82368C;
+	border-radius: 5px;
+	padding: 2px 5px;
 }
 
 /*ENFASIS 10*/
