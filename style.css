@@ -855,6 +855,30 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	margin-left: -10px;
 }
 
+.content ol li:before, 
+.cke_contents ol li:before {
+    content: counter(bck-li-counter) ".";
+    position: absolute;
+    top: 0;
+    left: -3px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: transparent;
+    color: #333;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
 /*LISTA ORDENADA 1*/
 #actividad .content .cke_contents .bck-ol-1,
 #actividad .content .texto_curso .bck-ol-1,
