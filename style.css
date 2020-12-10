@@ -2097,18 +2097,43 @@ th {
 
 /*Iconos tag rojo*/
 
+.unittag_rojo_defifrancophone .item-container .icon-cesta-letras:before {
+	background-image: url(imagenes/icono_cesta_rojo_defifrancophone.png);
+}
+
+.unittag_rojo_defifrancophone .item-container .icon-exclamacion-verde:before {
+	background-image: url(imagenes/icono_exclamacion_rojo_defifrancophone.png);
+}
+
+.unittag_rojo_defifrancophone .item-container .icon-campana-verde:before {
+    background-image: url(imagenes/icono_campana_rojo_defifrancophone.png);
+}
+
+
 /*Énfasis tag rojo*/
 
 .unittag_rojo_defifrancophone .bck-enfasis-3 {
     color: #e30513;
 }
 
+.unittag_rojo_defifrancophone .bck-enfasis-3:before {
+    background-image: url(imagenes/icono_flecha_rojo_defifrancophone.png);
+}
+
 .unittag_rojo_defifrancophone .bck-enfasis-5 {
     color: #e30513;
 }
 
+.unittag_rojo_defifrancophone .bck-enfasis-5:before {
+    background-image: url(imagenes/icono_exclamacion_rojo_defifrancophone.png);
+}
+
 .unittag_rojo_defifrancophone .bck-enfasis-6 {
     color: #e30513;
+}
+
+.unittag_rojo_defifrancophone .bck-enfasis-6:before {
+    background-image: url(imagenes/icono_campana_rojo_defifrancophone.png);
 }
 
 /*Desplegables tag rojo*/
@@ -2140,8 +2165,300 @@ th {
 
 /*---------------------------------Unittag azul------------------------------*/
 
+/*Títulos tag azul*/
+
+.unittag_azul_defifrancophone #actividad .content .header .title h3 {
+	background: #1960ab;
+}
+
+.unittag_azul_defifrancophone .bck-title-1 {
+	background-color: #1960ab;
+}
+
+/*Listas tag azul*/
+
+.unittag_azul_defifrancophone #actividad .content .cke_contents .bck-ol-1 li:before, 
+.unittag_azul_defifrancophone #actividad .content .texto_curso .bck-ol-1 li:before, 
+.unittag_azul_defifrancophone #actividad .popover-content .bck-ol-1 li:before, 
+.unittag_azul_defifrancophone #actividad .content .workspace ul li .bck-ol-1 li:before {
+	color: #1960ab;
+}
+
+.unittag_azul_defifrancophone #actividad .content .cke_contents .bck-ol-2 li:before, 
+.unittag_azul_defifrancophone #actividad .content .texto_curso ol.bck-ol-2 li:before, 
+.unittag_azul_defifrancophone #actividad .popover-content ol.bck-ol-2 li:before, 
+.unittag_azul_defifrancophone #actividad .content .workspace ul li ol.bck-ol-2 li:before {
+	background: #1960ab;
+}
+
+.unittag_azul_defifrancophone #actividad .content .cke_contents .bck-ol-3 li:before, 
+.unittag_azul_defifrancophone #actividad .content .texto_curso ol.bck-ol-3 li:before, 
+.unittag_azul_defifrancophone #actividad .popover-content ol.bck-ol-3 li:before, 
+.unittag_azul_defifrancophone #actividad .content .workspace ul li ol.bck-ol-3 li:before {
+	color: #1960ab;
+}
+
+/*Cajas tag azul*/
+
+.unittag_azul_defifrancophone .bck-box-5 .bck-title {
+	background-color: #1960ab;
+}
+
+.unittag_azul_defifrancophone .bck-box-5 .bck-content {
+    border: 3px dashed #1960ab;
+}
+
+.unittag_azul_defifrancophone .bck-box.bck-box-7 {
+    -moz-box-shadow: 0 20px 0 -10px #fffefe,
+    				 0 -20px 0 -10px #fff,
+    				 21px 0 0 -10px #fff,
+    				 -21px 0 0 -10px #fff,
+    				 0 0 0 5px #1960ab,
+    				 5px 5px 5px 0 transparent;
+    -webkit-box-shadow: 0 20px 0 -10px #fffefe, 
+    				 0 -20px 0 -10px #fff, 
+    				 21px 0 0 -10px #fff,
+    				 21px 0 0 -10px #fff, 
+    				 0 0 0 5px #1960ab, 
+    				 5px 5px 5px 0 transparent;
+    box-shadow: 0 20px 0 -10px #fffefe, 
+    			0 -20px 0 -10px #fff, 
+    			21px 0 0 -10px #fff, 
+    			-21px 0 0 -10px #fff, 
+    			0 0 0 5px #1960ab, 
+    			5px 5px 5px 0 transparent;
+}
+
+.unittag_azul_defifrancophone .bck-box-8 .bck-title {
+    background-color: #1960ab;
+}
+
+.unittag_azul_defifrancophone .bck-box-8 .bck-content {
+	background: #D7DCF0;
+}
+
+.unittag_azul_defifrancophone .bck-box-10 .bck-title {
+    background: #1960ab;
+}
+
+.unittag_azul_defifrancophone .bck-box.bck-box-10 .bck-content {
+    background-color: #1960ab;
+}
+
+/*Iconos tag azul*/
+
+.unittag_azul_defifrancophone .item-container .icon-cesta-letras:before {
+	background-image: url(imagenes/icono_cesta_azul_defifrancophone.png);
+}
+
+.unittag_azul_defifrancophone .item-container .icon-exclamacion-verde:before {
+	background-image: url(imagenes/icono_exclamacion_azul_defifrancophone.png);
+}
+
+.unittag_azul_defifrancophone .item-container .icon-campana-verde:before {
+    background-image: url(imagenes/icono_campana_azul_defifrancophone.png);
+}
+
+/*Énfasis tag azul*/
+
+.unittag_azul_defifrancophone .bck-enfasis-3 {
+    color: #1960ab;
+}
+
+.unittag_azul_defifrancophone .bck-enfasis-3:before {
+    background-image: url(imagenes/icono_flecha_azul_defifrancophone.png);
+}
+
+.unittag_azul_defifrancophone .bck-enfasis-5 {
+    color: #1960ab;
+}
+
+.unittag_azul_defifrancophone .bck-enfasis-5:before {
+    background-image: url(imagenes/icono_exclamacion_azul_defifrancophone.png);
+}
+
+.unittag_azul_defifrancophone .bck-enfasis-6 {
+    color: #1960ab;
+}
+
+.unittag_azul_defifrancophone .bck-enfasis-6:before {
+    background-image: url(imagenes/icono_campana_azul_defifrancophone.png);
+}
+
+/*Desplegables tag azul*/
+
+.unittag_azul_defifrancophone .bck-dropdown.bck-dropdown-3 {
+    background-color: #1960ab;
+}
+
+.unittag_azul_defifrancophone .bck-dropdown-3 .bck-dropdown-button {
+    border: 2px solid #1960ab;
+}
+
+.unittag_azul_defifrancophone .bck-dropdown-3 .bck-dropdown-content {
+    border: 1px solid #1960ab;
+}
+
+.unittag_azul_defifrancophone .bck-dropdown.bck-dropdown-4 {
+    border: 2px solid #1960ab;
+}
+
+.unittag_azul_defifrancophone .bck-dropdown-4 .bck-dropdown-titulo {
+    color: #1960ab;
+}
+
+.unittag_azul_defifrancophone .bck-dropdown-4 .fa-chevron-up:before, 
+.unittag_azul_defifrancophone .bck-dropdown-4 .fa-chevron-down:before {
+    color: #1960ab;
+}
 /*---------------------------------Unittag granate------------------------------*/
 
+/*Títulos tag granate*/
+
+.unittag_granate_defifrancophone #actividad .content .header .title h3 {
+	background: #981646;
+}
+
+.unittag_granate_defifrancophone .bck-title-1 {
+	background-color: #981646;
+}
+
+/*Listas tag granate*/
+
+.unittag_granate_defifrancophone #actividad .content .cke_contents .bck-ol-1 li:before, 
+.unittag_granate_defifrancophone #actividad .content .texto_curso .bck-ol-1 li:before, 
+.unittag_granate_defifrancophone #actividad .popover-content .bck-ol-1 li:before, 
+.unittag_granate_defifrancophone #actividad .content .workspace ul li .bck-ol-1 li:before {
+	color: #981646;
+}
+
+.unittag_granate_defifrancophone #actividad .content .cke_contents .bck-ol-2 li:before, 
+.unittag_granate_defifrancophone #actividad .content .texto_curso ol.bck-ol-2 li:before, 
+.unittag_granate_defifrancophone #actividad .popover-content ol.bck-ol-2 li:before, 
+.unittag_granate_defifrancophone #actividad .content .workspace ul li ol.bck-ol-2 li:before {
+	background: #981646;
+}
+
+.unittag_granate_defifrancophone #actividad .content .cke_contents .bck-ol-3 li:before, 
+.unittag_granate_defifrancophone #actividad .content .texto_curso ol.bck-ol-3 li:before, 
+.unittag_granate_defifrancophone #actividad .popover-content ol.bck-ol-3 li:before, 
+.unittag_granate_defifrancophone #actividad .content .workspace ul li ol.bck-ol-3 li:before {
+	color: #981646;
+}
+
+/*Cajas tag granate*/
+
+.unittag_granate_defifrancophone .bck-box-5 .bck-title {
+	background-color: #981646;
+}
+
+.unittag_granate_defifrancophone .bck-box-5 .bck-content {
+    border: 3px dashed #981646;
+}
+
+.unittag_granate_defifrancophone .bck-box.bck-box-7 {
+    -moz-box-shadow: 0 20px 0 -10px #fffefe,
+    				 0 -20px 0 -10px #fff,
+    				 21px 0 0 -10px #fff,
+    				 -21px 0 0 -10px #fff,
+    				 0 0 0 5px #981646,
+    				 5px 5px 5px 0 transparent;
+    -webkit-box-shadow: 0 20px 0 -10px #fffefe, 
+    				 0 -20px 0 -10px #fff, 
+    				 21px 0 0 -10px #fff,
+    				 21px 0 0 -10px #fff, 
+    				 0 0 0 5px #981646, 
+    				 5px 5px 5px 0 transparent;
+    box-shadow: 0 20px 0 -10px #fffefe, 
+    			0 -20px 0 -10px #fff, 
+    			21px 0 0 -10px #fff, 
+    			-21px 0 0 -10px #fff, 
+    			0 0 0 5px #981646, 
+    			5px 5px 5px 0 transparent;
+}
+
+.unittag_granate_defifrancophone .bck-box-8 .bck-title {
+    background-color: #981646;
+}
+
+.unittag_granate_defifrancophone .bck-box-8 .bck-content {
+	background: #EBD0D6;
+}
+
+.unittag_granate_defifrancophone .bck-box-10 .bck-title {
+    background: #981646;
+}
+
+.unittag_granate_defifrancophone .bck-box.bck-box-10 .bck-content {
+    background-color: #981646;
+}
+
+/*Iconos tag granate*/
+
+.unittag_granate_defifrancophone .item-container .icon-cesta-letras:before {
+	background-image: url(imagenes/icono_cesta_granate_defifrancophone.png);
+}
+
+.unittag_granate_defifrancophone .item-container .icon-exclamacion-verde:before {
+	background-image: url(imagenes/icono_exclamacion_granate_defifrancophone.png);
+}
+
+.unittag_granate_defifrancophone .item-container .icon-campana-verde:before {
+    background-image: url(imagenes/icono_campana_granate_defifrancophone.png);
+}
+
+/*Énfasis tag granate*/
+
+.unittag_granate_defifrancophone .bck-enfasis-3 {
+    color: #981646;
+}
+
+.unittag_granate_defifrancophone .bck-enfasis-3:before {
+	background-image: url(imagenes/icono_granate_verde_defifrancophone.png);
+}
+
+.unittag_granate_defifrancophone .bck-enfasis-5 {
+    color: #981646;
+}
+
+.unittag_granate_defifrancophone .bck-enfasis-5:before {
+    background-image: url(imagenes/icono_exclamacion_granate_defifrancophone.png);
+}
+
+.unittag_granate_defifrancophone .bck-enfasis-6 {
+    color: #981646;
+}
+
+.unittag_granate_defifrancophone .bck-enfasis-6:before {
+    background-image: url(imagenes/icono_campana_granate_defifrancophone.png);
+}
+
+/*Desplegables tag granate*/
+
+.unittag_granate_defifrancophone .bck-dropdown.bck-dropdown-3 {
+    background-color: #981646;
+}
+
+.unittag_granate_defifrancophone .bck-dropdown-3 .bck-dropdown-button {
+    border: 2px solid #981646;
+}
+
+.unittag_granate_defifrancophone .bck-dropdown-3 .bck-dropdown-content {
+    border: 1px solid #981646;
+}
+
+.unittag_granate_defifrancophone .bck-dropdown.bck-dropdown-4 {
+    border: 2px solid #981646;
+}
+
+.unittag_granate_defifrancophone .bck-dropdown-4 .bck-dropdown-titulo {
+    color: #981646;
+}
+
+.unittag_granate_defifrancophone .bck-dropdown-4 .fa-chevron-up:before, 
+.unittag_granate_defifrancophone .bck-dropdown-4 .fa-chevron-down:before {
+    color: #981646;
+}
 
 /*secciÃ³n intro*/
 #actividad .content .intro .header .title h3 {
