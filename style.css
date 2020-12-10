@@ -855,6 +855,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	margin-left: -10px;
 }
 
+/*
 .content ol li:before, 
 .cke_contents ol li:before {
     content: counter(bck-li-counter) ".";
@@ -878,6 +879,8 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     text-align: center;
     line-height: 2.5rem;
 }
+
+*/
 
 /*LISTA ORDENADA 1*/
 #actividad .content .cke_contents .bck-ol-1,
