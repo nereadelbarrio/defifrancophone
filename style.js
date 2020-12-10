@@ -62,8 +62,8 @@
 
 				{ name: 'Icono Vídeo', element: 'span', attributes: { 'class': 'icon icon-video' } },
 				{ name: 'Icono Cesta letras', element: 'span', attributes: { 'class': 'icon icon-cesta-letras' } },
-				{ name: 'Icono Exclamación verde', element: 'span', attributes: { 'class': 'icon icon-exclamacion-verde' } },
-				{ name: 'Icono Campana verde', element: 'span', attributes: { 'class': 'icon icon-campana-verde' } },
+				{ name: 'Icono Exclamación', element: 'span', attributes: { 'class': 'icon icon-exclamacion-verde' } },
+				{ name: 'Icono Campana', element: 'span', attributes: { 'class': 'icon icon-campana-verde' } },
 				{ name: 'Icono Lápiz', element: 'span', attributes: { 'class': 'icon icon-lapiz' } },
 				{ name: 'Icono The French Hub', element: 'span', attributes: { 'class': 'icon icon-thefrenchhub' } },
 
