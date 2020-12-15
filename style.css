@@ -1859,8 +1859,16 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 }
 
 /**Iconos**/
-.item-container .icon:before {
-	vertical-align: top;
+.cke_contents .icon:before, 
+.item-container.icon:before {
+	content: "";
+	background-repeat: no-repeat;
+	-webkit-background-size: auto 100%;
+	   -moz-background-size: auto 100%;
+	     -o-background-size: auto 100%;
+	        background-size: auto 100%;
+	background-position: center center;
+	display: inline-block;
 }
 
 .item-container .icon-video:before {
