@@ -14,7 +14,6 @@
 		ckEditorStyles: {
 			name: 'defifrancophonedemo',
 			styles: [
-				{ name: 'Título Prepárate', element: 'h2', attributes: { 'class': 'bck-title bck-title-preparate'} },
 				{ name: 'Título 1', element: 'h3', attributes: { 'class': 'bck-title bck-title-1'} },
 				{ name: 'Título 2', element: 'h3', attributes: { 'class': 'bck-title bck-title-2'} },
 				{ name: 'Título 3', element: 'h3', attributes: { 'class': 'bck-title bck-title-3'} },
@@ -66,6 +65,7 @@
 				{ name: 'Icono Campana', element: 'span', attributes: { 'class': 'icon icon-campana-verde' } },
 				{ name: 'Icono Lápiz', element: 'span', attributes: { 'class': 'icon icon-lapiz' } },
 				{ name: 'Icono The French Hub', element: 'span', attributes: { 'class': 'icon icon-thefrenchhub' } },
+				{ name: 'Icono Compare', element: 'span', attributes: { 'class': 'icon icon-compare' } },
 
 				{ name: 'Celda 1', element: 'td', attributes: { 'class': 'celda-1' } },
 				{ name: 'Celda 2', element: 'td', attributes: { 'class': 'celda-2' } },
