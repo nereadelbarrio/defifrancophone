@@ -1912,7 +1912,16 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 }
 
 .item-container .icon-thefrenchhub:before {
-	background-image: url(imagenes/icono_thefrenchhub_defifrancophone.png);
+	background-image: url(imagenes/logofrenchhub_defifrancophone.png);
+	width: 125px;
+    height: 23px;
+    vertical-align: top;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+
+.item-container .icon-compare:before {
+	background-image: url(imagenes/icono_compare_defifrancophone.png);
 	width: 125px;
     height: 23px;
     vertical-align: top;
