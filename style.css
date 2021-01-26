@@ -269,17 +269,17 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
 
 
 .content_type_curso_defifrancophonedemo   .libro-left ul li .title:before {
-	content: "";
-	background-size: contain;
-	top: 3px;
-	background-image: url(imagenes/thespanishhub_logo.png) !important;
-	position: fixed;
-	width: 80px;
-	height: 40px;
-	background-repeat: no-repeat;
-	left: 50%;
-	margin-left: -40px;
-	opacity: 1;
+    content: "";
+    background-size: contain;
+    top: 12px;
+    background-image: url(imagenes/logofrenchhub_defifrancophone.png) !important;
+    position: fixed;
+    width: 100px;
+    height: 23px;
+    background-repeat: no-repeat;
+    left: 50%;
+    margin-left: -40px;
+    opacity: 1;
 }
 
 .content_type_curso_defifrancophonedemo.content_type_clase_defifrancophonedemo   .libro-left ul li .title:before { 
