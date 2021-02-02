@@ -657,14 +657,17 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 /*TITULO 5*/
 
 .bck-title-5 {
-	font-weight: bold;
+font-weight: bold;
     font-size: 2rem;
-    margin-left: 0;
     border-bottom: none;
     border-radius: 0px;
     background: #000;
     color: #fff;
     padding: 5px 15px 5px 15px;
+    display: block;
+    text-align: right;
+    position: absolute;
+    right: -82px;
     width: fit-content;
     -webkit-width: fit-content;
     -o-width: fit-content;
