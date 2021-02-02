@@ -2689,7 +2689,7 @@ th {
 .bck-dropdown-3 .bck-dropdown-content {
 	background-color: #fff;
     border-radius: 0;
-    overflow: inherit;
+        overflow-y: auto;
     border: 1px solid #2b7239;
     padding: 10px;
     padding-left: 20px;
@@ -2743,7 +2743,7 @@ th {
 .bck-dropdown-4 .bck-dropdown-content {
 	background-color: #fff;
     border-radius: 0;
-    overflow: inherit;
+        overflow-y: auto;
     padding: 10px;
     padding-left: 20px;
 }
@@ -2796,7 +2796,7 @@ th {
 .bck-dropdown-5 .bck-dropdown-content {
 	background-color: #fff;
     border-radius: 0;
-    overflow: inherit;
+        overflow-y: auto;
     padding: 10px;
     padding-left: 20px;
 }
