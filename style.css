@@ -633,7 +633,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 /*TITULO 2*/
 
 .bck-title-2 {
-	font-weight: bold;
+	font-weight: 400;
 	font-size: 6rem;
 	border-bottom: none;
 }
