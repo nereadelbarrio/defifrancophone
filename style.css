@@ -1752,6 +1752,11 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	transition: all ease-in-out .5s;
 }
 
+/*LINEA SEPARACIÓN*/
+hr {
+    margin: 15px 0;
+    border-top: dotted 3px white;
+}
 
 /*AJUSTES ACTIVIDADES*/
 /*Verdadero y falso*/
