@@ -1322,7 +1322,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     margin-left: -50px;
 }
 
-/*LISTA DESORDENADA 2*/
+/*LISTA DESORDENADA 6*/
 #actividad .content .cke_contents .bck-ul-6,
 #actividad .content .texto_curso .bck-ul-6,
 #actividad .content .workspace ul li .bck-ul-6 {
@@ -1347,6 +1347,40 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	content: "";
     height: 6px;
     width: 6px;
+    background-color: #333;
+    color: #333;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 6px;
+    border: 1px solid #333;
+}
+
+/*LISTA DESORDENADA 7*/
+#actividad .content .cke_contents .bck-ul-7,
+#actividad .content .texto_curso .bck-ul-7,
+#actividad .content .workspace ul li .bck-ul-7 {
+	list-style-type: none;
+}
+
+#actividad .content .cke_contents .bck-ul-7 li,
+#actividad .content .cke_contents .bck-ul-7 li,
+#actividad .content .texto_curso .bck-ul-7 li,
+#actividad .popover-content .bck-ul-7 li,
+#actividad .content .workspace ul li .bck-ul-7 li {
+	padding-left: 40px;
+	position: relative;
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+#actividad .content .cke_contents .bck-ul-7 li:before,
+#actividad .content .texto_curso ul.bck-ul-7 li:before,
+#actividad .popover-content ul.bck-ul-7 li:before,
+#actividad .content .workspace ul li ul.bck-ul-7 li:before {
+	content: "";
+    height: 6px;
+    width: 6px;
     background-color: transparent;
     color: #333;
     border-radius: 50%;
@@ -1355,6 +1389,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     margin-left: 6px;
     border: 1px solid #333;
 }
+
 
 
 .bck-box p {
