@@ -318,6 +318,11 @@ body {
 	text-align: left;
 }
 
+.texto_curso p {
+    line-height: 1.43em!important;
+    margin-bottom: 10px;
+}
+
 /*tamaÃ±o enunciado listas*/
 
 #actividad .pregunta .texto_curso {
