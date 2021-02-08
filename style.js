@@ -46,6 +46,8 @@
 				{ name: 'Lista Desordenada 3', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-3' } },
 				{ name: 'Lista Desordenada 4', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-4' } },
 				{ name: 'Lista Desordenada 5', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-5' } },
+				{ name: 'Lista Desordenada 6', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-6' } },
+				{ name: 'Lista Desordenada 7', element: 'ul', attributes: { 'class': 'bck-ul bck-ul-7' } },
 
 				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-1' } },
 				{ name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-2' } },
