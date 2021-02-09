@@ -3,9 +3,14 @@
 /* Fonts */
 
 
-b,
+/*b,
 strong {
 	font-weight: bold;
+}
+*/
+
+strong {
+	font-weight: 600;
 }
 
 @font-face {
