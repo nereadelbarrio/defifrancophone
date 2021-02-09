@@ -845,6 +845,14 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	font-family: 'Conv_Stag'
 }
 
+/*ÉNFASIS 11*/
+.bck-enfasis-11 {
+    background-color: #E6DEDF;
+    border-radius: 5px;
+    padding: 3px 8px;
+    font-family: 'Conv_Stag';
+}
+
 /*----------------------LISTAS-----------------------*/
 #actividad .content .cke_contents .bck-ol li:before,
 #actividad .content .texto_curso .bck-ol li:before,
