@@ -1762,26 +1762,49 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 
 
 /*CAJA POP-UP*/
-.info-popover .popover-title:before,
-.popover-template .popover-title:before {
-	color: #728fa6;
-}
-
-.info-popover .popover-title,
-.popover-template .popover-title {
-	background: #728fa6;
-}
-
-.info-template .info-title {
-	color: #333;
-}
-
 .info-template .info-title.shown {
-	margin: 0 3px 12px 0;
+    margin: 0 3px 12px 0;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
 }
-
-.info-template .info-title.shown:before {
-	display: none;
+.info-template .info-title:hover {
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+.info-template.shown {
+    background: #fff;
+    background: -moz-linear-gradient(-45deg,#fff 0,#eee 100%);
+    background: -webkit-linear-gradient(
+-45deg
+,#fff 0,#eee 100%);
+    background: -webkit-linear-gradient(
+315deg
+,#fff 0,#eee 100%);
+    background: -moz-linear-gradient(315deg,#fff 0,#eee 100%);
+    background: -o-linear-gradient(315deg,#fff 0,#eee 100%);
+    background: #000000;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#eeeeee',GradientType=1);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+}
+.info-popover .popover-title, .popover-template .popover-title {
+    background: #000000;
+}
+.info-popover .popover-title, .popover-template .popover-title {
+    position: relative;
+    background: #e76148;
+    padding-left: 15px;
+    padding-top: 14px;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.info-popover .popover-title:before, .popover-template .popover-title:before {
+    display:none;
 }
 
 /*icono info*/
@@ -1791,6 +1814,9 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	font-size: 2.2rem;
 	line-height: 20px;
 	color: #333;
+}
+.fa-times:before {
+    color: #fff;
 }
 
 #actividad .info-button {
@@ -1813,30 +1839,27 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 }
 
 /*Pop-up flotante*/
-.info-template {
-	position: fixed;
-	top: 100px;
-	right: 0;
-	-webkit-transform: translateX(105%);
-	-moz-transform: translateX(105%);
-	-ms-transform: translateX(105%);
-	-o-transform: translateX(105%);
-	transform: translateX(105%);
-	z-index: 1000;
-	width: 135px;
-	height: auto;
-	-webkit-box-shadow: 0 0 2px #555;
-	-moz-box-shadow: 0 0 2px #555;
-	box-shadow: 0 0 2px #555;
-	-webkit-border-radius: 5px 0 0 5px;
-	-moz-border-radius: 5px 0 0 5px;
-	border-radius: 5px 0 0 5px;
-	background: #fff;
-	padding: 15px 5px 0;
-	-webkit-transition: all ease-in-out .5s;
-	-o-transition: all ease-in-out .5s;
-	-moz-transition: all ease-in-out .5s;
-	transition: all ease-in-out .5s;
+.info-template .info-icon{
+	display: none;
+}
+
+.info-template .info-title.shown {
+    margin: 0 3px 12px 0;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.info-template .info-title.shown {
+    height: auto;
+    margin: 0px 3px 6px;
+    padding-top: 0px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.info-template .info-title {
+	color: #333;
 }
 
 /*LINEA SEPARACIÓN*/
