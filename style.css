@@ -1860,6 +1860,10 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	color: #333;
 }
 
+.info-template .info-title.shown:before{
+display:none;
+}
+
 /*LINEA SEPARACIÓN*/
 hr {
     margin: 15px 0;
