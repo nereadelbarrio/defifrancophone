@@ -2543,6 +2543,10 @@ th {
     background-image: url(imagenes/icono_campana_granate_defifrancophone.png);
 }
 
+.unittag_granate_defifrancophone .bck-enfasis-8 {
+     background-color: #E7C7CC;
+}
+
 /*Desplegables tag granate*/
 
 .unittag_granate_defifrancophone .bck-dropdown.bck-dropdown-3 {
