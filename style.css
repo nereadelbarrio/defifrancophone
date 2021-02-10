@@ -1890,6 +1890,13 @@ hr {
 	font-size: 1.5rem;
 }
 
+/*Relacionar*/
+#actividad .box p {
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: 600;
+}
+
 /*botonera general*/
 #actividad .class_slide .review {
 	margin-top: 40px;
