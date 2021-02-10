@@ -1309,7 +1309,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     list-style-type: none;
     margin-bottom: 10px;
     color: #00489A;
-    font-weight: 600;
+    /*font-weight: 600;*/
     font-family: 'Conv_Stag-Sans';
     border-bottom: 1px dotted #00489A;
     margin-left: 50px;
