@@ -1762,12 +1762,6 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 
 
 /*CAJA POP-UP*/
-.info-template .info-title.shown {
-    margin: 0 3px 12px 0;
-    color: #fff;
-    font-size: 2rem;
-    font-weight: 600;
-}
 .info-template .info-title:hover {
     opacity: .5;
     filter: alpha(opacity=50);
@@ -1850,10 +1844,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 
 .info-template .info-title.shown {
     height: auto;
-    margin: 0px 3px 6px;
     padding-top: 0px;
-    font-size: 1.3rem;
-    font-weight: 500;
 }
 
 .info-template .info-title {
