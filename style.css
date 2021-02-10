@@ -1791,12 +1791,10 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     -o-transform: translateX(0);
     transform: translateX(0);
 }
-.info-popover .popover-title, .popover-template .popover-title {
-    background: #000000;
-}
+
 .info-popover .popover-title, .popover-template .popover-title {
     position: relative;
-    background: #e76148;
+    background: #000000;
     padding-left: 15px;
     padding-top: 14px;
     color: #fff;
