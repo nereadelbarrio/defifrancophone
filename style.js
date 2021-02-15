@@ -71,6 +71,7 @@
 				{ name: 'Icono Lápiz', element: 'span', attributes: { 'class': 'icon icon-lapiz' } },
 				{ name: 'Icono The French Hub', element: 'span', attributes: { 'class': 'icon icon-thefrenchhub' } },
 				{ name: 'Icono Compare', element: 'span', attributes: { 'class': 'icon icon-compare' } },
+				{ name: 'Icono Grupo', element: 'span', attributes: { 'class': 'icon icon-grupo' } },
 
 				{ name: 'Celda 1', element: 'td', attributes: { 'class': 'celda-1' } },
 				{ name: 'Celda 2', element: 'td', attributes: { 'class': 'celda-2' } },
