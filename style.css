@@ -879,7 +879,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 .cke_contents ol, 
 .popover-content ul, 
 .popover-content ol{
-     margin-bottom: 20px;
+     margin-bottom: 0px;
 }
 
 /*LISTA ORDENADA 1*/
