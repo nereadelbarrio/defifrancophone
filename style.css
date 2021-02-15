@@ -871,7 +871,16 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	margin-left: -10px;
 }
 
-
+.texto_curso ul, 
+.texto_curso ol, 
+.workspace:not(.multiple-choice,.matching,.ordenar,.clasificar,.test) ul li ul, 
+.workspace:not(.multiple-choice,.matching,.ordenar,.clasificar,.test) ul li ol, 
+.cke_contents ul, 
+.cke_contents ol, 
+.popover-content ul, 
+.popover-content ol{
+     margin-bottom: 20px;
+}
 
 /*LISTA ORDENADA 1*/
 #actividad .content .cke_contents .bck-ol-1,
