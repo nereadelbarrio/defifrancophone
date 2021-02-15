@@ -1500,6 +1500,10 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
     border-radius: 0px;
 }
 
+.bck-box.bck-box-2 .bck-content p {
+    margin-bottom: 5px;
+}
+
 .bck-box.bck-box-2 .bck-title {
 	color: #333;
     background: #6CAAC7;
