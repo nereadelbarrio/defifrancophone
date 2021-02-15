@@ -2079,6 +2079,14 @@ hr {
     margin-top: 1px;
 }
 
+.item-container .icon-grupo:before {
+	background-image: url(imagenes/icono_grupo_defifrancophone.png);
+	width: 110px;
+    height: 23px;
+    vertical-align: top;
+    margin-right: 5px;
+    margin-top: 1px;
+}
 
 
 /**TABLA**/
