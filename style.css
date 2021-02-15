@@ -1486,7 +1486,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 /*CAJA 2*/
 .bck-box.bck-box-2 {
     border: none;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     border-radius: 0px;
     color: #333;
 	background: none;
