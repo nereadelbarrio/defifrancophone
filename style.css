@@ -1961,6 +1961,18 @@ hr {
     font-weight: 600;
 }
 
+/**arrastrar texto imagen*/
+#actividad .drag li {
+    float: left;
+    width: 33%;
+    min-height: 30px;
+    position: relative;
+}
+#actividad .workspace.drag-and-drop {
+    position: relative;
+    margin-bottom: 30px;
+}
+
 /*botonera general*/
 #actividad .class_slide .review {
 	margin-top: 40px;
