@@ -1964,7 +1964,7 @@ hr {
 /**arrastrar texto imagen*/
 #actividad .drag li {
     float: left;
-    width: 33%;
+    width: 25%;
     min-height: 30px;
     position: relative;
 }
