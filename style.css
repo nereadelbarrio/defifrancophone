@@ -2816,7 +2816,7 @@ th {
 }
 
 .bck-dropdown-2 .bck-dropdown-content {
-    max-height: none;
+    max-height: 800%;
     padding: 10px;
     background-color: #fff;
     border: 1px solid #000;
@@ -2872,6 +2872,7 @@ th {
     border: 1px solid #2b7239;
     padding: 10px;
     padding-left: 20px;
+	max-height: 800%;
 }
 
 .bck-dropdown-3 .bck-dropdown-content p {
@@ -2925,6 +2926,7 @@ th {
         overflow-y: auto;
     padding: 10px;
     padding-left: 20px;
+	max-height: 800%;
 }
 
 .bck-dropdown-4 .bck-dropdown-content p {
@@ -2978,6 +2980,7 @@ th {
         overflow-y: auto;
     padding: 10px;
     padding-left: 20px;
+	max-height: 800%;
 }
 
 .bck-dropdown-5 .bck-dropdown-content p {
