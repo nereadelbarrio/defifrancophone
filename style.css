@@ -1615,7 +1615,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	border-radius: 0px;
 }
 
-.bck-box-5 .bck-title {
+.bck-box-5 > .bck-title {
 	border-bottom: none;
 	color: #fff;
 	font-size: 1.8rem;
@@ -1641,7 +1641,7 @@ body.is_app .defifrancophonedemo-navbar.ocultar {
 	margin-bottom: 5px;
 }
 
-.bck-box-5 .bck-content {
+.bck-box-5 > .bck-content {
 	border: 3px dashed #2B7239;
 	font-family: 'Conv_Stag';
 	padding: 20px;
@@ -2251,11 +2251,11 @@ th {
 
 /*Cajas tag rojo*/
 
-.unittag_rojo_defifrancophone .bck-box-5 .bck-title {
+.unittag_rojo_defifrancophone .bck-box-5 > .bck-title {
 	background-color: #e30513;
 }
 
-.unittag_rojo_defifrancophone .bck-box-5 .bck-content {
+.unittag_rojo_defifrancophone .bck-box-5 > .bck-content {
     border: 3px dashed #e30513;
 }
 
@@ -2401,11 +2401,11 @@ th {
 
 /*Cajas tag azul*/
 
-.unittag_azul_defifrancophone .bck-box-5 .bck-title {
+.unittag_azul_defifrancophone .bck-box-5 > .bck-title {
 	background-color: #1960ab;
 }
 
-.unittag_azul_defifrancophone .bck-box-5 .bck-content {
+.unittag_azul_defifrancophone .bck-box-5 > .bck-content {
     border: 3px dashed #1960ab;
 }
 
@@ -2549,11 +2549,11 @@ th {
 
 /*Cajas tag granate*/
 
-.unittag_granate_defifrancophone .bck-box-5 .bck-title {
+.unittag_granate_defifrancophone .bck-box-5 > .bck-title {
 	background-color: #981646;
 }
 
-.unittag_granate_defifrancophone .bck-box-5 .bck-content {
+.unittag_granate_defifrancophone .bck-box-5 > .bck-content {
     border: 3px dashed #981646;
 }
 
