@@ -1182,9 +1182,9 @@ counter-increment: bck-li-counter;
 
 
 #actividad .content .cke_contents .bck-ol-8 li:before, 
-#actividad .content .texto_curso .bck-ol-18 li:before,
-#actividad .popover-content .bck-ol-18 li:before,
-#actividad .content .workspace ul li .bck-ol-18 li:before {
+#actividad .content .texto_curso .bck-ol-8 li:before, 
+#actividad .popover-content .bck-ol-8 li:before, 
+#actividad .content .workspace ul li .bck-ol-8 li:before{
 	content: counter(bck-li-counter) "";
     font-weight: 800;
     font-family: 'Conv_CooperBlackStd';
