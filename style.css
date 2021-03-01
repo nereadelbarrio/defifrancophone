@@ -1935,6 +1935,16 @@ hr {
     background-color: rgb(222,214,215);
 }
 
+.fillblanks-draggable-wrapper .response p {
+    position: relative;
+    margin: 0;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: 'Conv_Stag';
+}
+
 /*clasificar*/
 #actividad .workspace.clasificar .clasificar_lista>ul {
 	display: inline-block;
