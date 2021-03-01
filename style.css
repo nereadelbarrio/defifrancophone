@@ -217,6 +217,16 @@ strong {
 	font-style: italic;
 }
 
+@font-face {
+	font-family: 'Conv_CooperBlackStd';
+	src: url('fonts/CooperBlackStd.eot');
+	src: local('☺'), url('fonts/CooperBlackStd.woff') format('woff'), url('fonts/CooperBlackStd.ttf') format('truetype'), url('fonts/CooperBlackStd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
 
 
 
