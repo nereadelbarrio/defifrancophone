@@ -1180,18 +1180,12 @@ counter-increment: bck-li-counter;
     font-family: 'Conv_CooperBlackStd';
 }
 
-#actividad .content .cke_contents .bck-ol-8 li:before,
-#actividad .content .texto_curso .bck-ol-8 li:before,
-#actividad .popover-content .bck-ol-8 li:before,
-#actividad .content .workspace ul li .bck-ol-8 li:before {
-	margin-left: -13px;
-}
 
 #actividad .content .cke_contents .bck-ol-8 li:before, 
 #actividad .content .texto_curso .bck-ol-18 li:before,
 #actividad .popover-content .bck-ol-18 li:before,
 #actividad .content .workspace ul li .bck-ol-18 li:before {
-content: counter(bck-li-counter) "";
+	content: counter(bck-li-counter) "";
     font-weight: 800;
     font-family: 'Conv_CooperBlackStd';
     position: absolute;
