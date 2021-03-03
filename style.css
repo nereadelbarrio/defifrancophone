@@ -361,6 +361,15 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 	font-weight: 600;
 	text-decoration: none;
 }
+
+/*ENLACE DOCS*/
+.texto_curso .bck-activity-link, 
+.texto_curso .bck-link{
+	cursor: pointer;
+    font-weight: 600;
+}
+
+
 /*INDICE LATERAL*/
 
 #indice .units ul li:not(.add) a .title {
