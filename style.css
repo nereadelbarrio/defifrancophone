@@ -2331,6 +2331,10 @@ th {
     background: #ae440f !important;
 }
 
+.units ul#list-units .unittag_titulo_defifrancophonedemo a .title {
+	color: #000;
+}
+
 /*---------------------------------Unittag rojo------------------------------*/
 
 /*Títulos tag rojo*/
