@@ -1,3 +1,5 @@
+/*DEFI
+pADRE mcgrawhill*/
 /*Estilo DEFI FRANCOOPHONE - CSS*/
 
 /* Fonts */
@@ -251,16 +253,9 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
 	color: #fff;
 }
 
-#list-units .unittag_textbook_defifrancophonedemo {
-	background: #31a2c7 !important;
-}
+#indice .units ul li.disabled, 
+#indice .units ul li.locked{
 
-#list-units .unittag_textbook_defifrancophonedemo:hover {
-	background: #3333337d !important;
-}
-
-.units ul#list-units .unittag_textbook_defifrancophonedemo a .title {
-	color: #ffffff;
 }
 
 
@@ -268,7 +263,11 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
 #book-index #indice .units ul li a .title {
 	margin: 0;
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 600;
+}
+
+#indice .units ul li a .title{
+	color: #000;
 }
 
 /*Input Blanco*/
@@ -374,7 +373,7 @@ body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
 
 #indice .units ul li:not(.add) a .title {
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 600;
 	margin-left: 10px;
 }
 
@@ -384,6 +383,9 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
 	background: #b7b7b7;
 }
 
+#book-index #indice .units ul li:hover {
+    background-color: #b7b7b7 !important;
+}
 
 #book-index .col-main {
 	background: #31A2C7;
@@ -430,7 +432,7 @@ body:not(.isTablet) #book-index #indice .units ul li:not(.disabled) a:hover,
 body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title,
 body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 600;
 }
 
 
@@ -2294,6 +2296,40 @@ th {
 }
 
 /*TAGS*/
+/*---------------------------------Unittag textbooks------------------------------*/
+
+#list-units .unittag_textbook_defifrancophonedemo {
+	background: #000 !important;
+}
+
+#list-units .unittag_textbook_defifrancophonedemo:hover {
+	background: #ae440f !important;
+}
+
+.units ul#list-units .unittag_textbook_defifrancophonedemo a .title {
+	color: #ffffff;
+}
+
+
+/*---------------------------------Unittag activities------------------------------*/
+
+#list-units .unittag_activities_defifrancophonedemo {
+	background: #fff !important;
+}
+
+#list-units .unittag_activities_defifrancophonedemo:hover {
+	background: #ae440f !important;
+}
+
+.units ul#list-units .unittag_activities_defifrancophonedemo a .title {
+	color: #000;
+}
+
+
+/*---------------------------------Unittag titulo------------------------------*/
+#list-units .unittag_titulo_defifrancophonedemo {
+    background: #ae440f !important;
+}
 
 /*---------------------------------Unittag rojo------------------------------*/
 
