@@ -1870,7 +1870,7 @@ counter-increment: bck-li-counter;
 }
 
 /*Caja 11*/
-.bck-box.bck-box11 {
+.bck-box.bck-box-11 {
     margin-top: -2.6%;
     position: relative;
     left: -13.2%;
@@ -1881,7 +1881,7 @@ counter-increment: bck-li-counter;
     border: none;
 }
 
-.bck-box11 .bck-content .player.audio {
+.bck-box-11 .bck-content .player.audio {
 	padding: 30px;
 }
 
