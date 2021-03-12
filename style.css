@@ -2327,11 +2327,11 @@ th {
 
 
 /*---------------------------------Unittag titulo------------------------------*/
-#list-units .unittag_titulo_defifrancophone {
+#list-units .unittag_titulo_defifrancophonedemo {
     background: #ae440f !important;
 }
 
-.units ul#list-units .unittag_titulo_defifrancophone a .title {
+.units ul#list-units .unittag_titulo_defifrancophonedemo a .title {
 	color: #000;
 }
 
