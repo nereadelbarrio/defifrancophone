@@ -2298,30 +2298,30 @@ th {
 /*TAGS*/
 /*---------------------------------Unittag textbooks------------------------------*/
 
-#list-units .unittag_textbook_defifrancophone {
+#list-units .unittag_textbook_defifrancophonedemo {
 	background: #000 !important;
 }
 
-#list-units .unittag_textbook_defifrancophone:hover {
+#list-units .unittag_textbook_defifrancophonedemo:hover {
 	background: #ae440f !important;
 }
 
-.units ul#list-units .unittag_textbook_defifrancophone a .title {
+.units ul#list-units .unittag_textbook_defifrancophonedemo a .title {
 	color: #ffffff;
 }
 
 
 /*---------------------------------Unittag activities------------------------------*/
 
-#list-units .unittag_activities_defifrancophone {
+#list-units .unittag_activities_defifrancophonedemo {
 	background: #fff !important;
 }
 
-#list-units .unittag_activities_defifrancophone:hover {
+#list-units .unittag_activities_defifrancophonedemo:hover {
 	background: #ae440f !important;
 }
 
-.units ul#list-units .unittag_activities_defifrancophone a .title {
+.units ul#list-units .unittag_activities_defifrancophonedemo a .title {
 	color: #000;
 }
 
@@ -3123,26 +3123,26 @@ th {
 }
 
 
-#list-units .unittag_textbook_defifrancophone {
+#list-units .unittag_textbook_defifrancophonedemo {
     background: #000 !important;
 }
 
-.units ul#list-units .unittag_textbook_defifrancophone a .title {
+.units ul#list-units .unittag_textbook_defifrancophonedemo a .title {
     color: #ffffff;
 }
 
-#list-units .unittag_textbook_defifrancophone:hover {
+#list-units .unittag_textbook_defifrancophonedemo:hover {
     background: #3333337d !important;
 }
-#list-units .unittag_activities_defifrancophone {
+#list-units .unittag_activities_defifrancophonedemo {
     background: #fff !important;
 }
 
-.units ul#list-units .unittag_activities_defifrancophone a .title {
+.units ul#list-units .unittag_activities_defifrancophonedemo a .title {
     color: #000;
 }
 
-#list-units .unittag_activities_defifrancophone:hover {
+#list-units .unittag_activities_defifrancophonedemo:hover {
     background: #3333337d !important;
 }
 #indice .unit-content .header .title {
