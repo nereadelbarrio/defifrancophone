@@ -2,17 +2,17 @@
 (function (blink) {
 	'use strict';
 
-	var defifrancophonedemoStyle = function () {
+	var defifrancophoneStyle = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	defifrancophonedemoStyle.prototype = {
+	defifrancophoneStyle.prototype = {
 		//BK-15873 añadimos el estilo basic como parent para la herencia de los estilos del CKEditor
 		parent: blink.theme.styles.basic.prototype,
-		bodyClassName: 'content_type_clase_defifrancophonedemo',
+		bodyClassName: 'content_type_clase_defifrancophone',
 		ckEditorStyles: {
-			name: 'defifrancophonedemo',
+			name: 'defifrancophone',
 			styles: [
 				{ name: 'Título 1', element: 'h3', attributes: { 'class': 'bck-title bck-title-1'} },
 				{ name: 'Título 2', element: 'h3', attributes: { 'class': 'bck-title bck-title-2'} },
@@ -63,7 +63,6 @@
 				{ name: 'Caja 8', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-8' } },
 				{ name: 'Caja 9', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-9' } },
 				{ name: 'Caja 10', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-10' } },
-				{ name: 'Caja 11', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box-11' } },
 
 
 				{ name: 'Icono Vídeo', element: 'span', attributes: { 'class': 'icon icon-video' } },
@@ -235,7 +234,7 @@
 
 		formatCarouselindicators: function (scope, classNavbar) {
 			var that = scope || this,
-				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'defifrancophonedemo-navbar'),
+				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'defifrancophone-navbar'),
 				$navbarBottom = $('.navbar-bottom'),
 				firstSlide = eval('t0_slide');
 			if(blink.courseInfo && blink.courseInfo.courseDateCreated) var courseYearCreated = new Date(blink.courseInfo.courseDateCreated).getFullYear();
@@ -434,7 +433,7 @@
 
 		animateNavbarOnScroll: function (scope, classNavbar) {
 			var that = scope || this,
-				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'defifrancophonedemo-navbar');
+				navbar = ((typeof classNavbar !== "undefined" && classNavbar)?classNavbar:'defifrancophone-navbar');
 			if (!blink.isApp) return;
 			var $navbar = $('.'+navbar);
 			var lastScrollTop = 0;
@@ -520,9 +519,9 @@
  		}
 	};
 
-	defifrancophonedemoStyle.prototype = _.extend({}, new blink.theme.styles.basic(), defifrancophonedemoStyle.prototype);
+	defifrancophoneStyle.prototype = _.extend({}, new blink.theme.styles.basic(), defifrancophoneStyle.prototype);
 
-	blink.theme.styles['defifrancophonedemo'] = defifrancophonedemoStyle;
+	blink.theme.styles['defifrancophone'] = defifrancophoneStyle;
 
 })( blink );
 
