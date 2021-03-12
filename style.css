@@ -282,7 +282,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
 /*logo*/
 
 
-.content_type_curso_defifrancophonedemo   .libro-left ul li .title:before {
+.content_type_curso_defifrancophone   .libro-left ul li .title:before {
     content: "";
     background-size: contain;
     top: 12px;
@@ -296,7 +296,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
     opacity: 1;
 }
 
-.content_type_curso_defifrancophonedemo.content_type_clase_defifrancophonedemo   .libro-left ul li .title:before { 
+.content_type_curso_defifrancophone.content_type_clase_defifrancophone   .libro-left ul li .title:before { 
 	opacity: 0;
 }
 .navbar-content .logo-publisher {
@@ -465,7 +465,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 	background: #ccc;
 }
 
-.defifrancophonedemo-navbar h3 {
+.defifrancophone-navbar h3 {
 	width: 75%;
 	margin: auto;
 	margin-bottom: 15px;
@@ -494,7 +494,7 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
     background: #fff;
 }
 
-.defifrancophonedemo-navbar {
+.defifrancophone-navbar {
 	position: fixed;
 	bottom: 0;
 	left: 0;
@@ -510,25 +510,25 @@ body:not(.isTablet) #book-index #indice .unit-content .actividades .item:active,
 	background: none;
 }
 
-body.is_app .defifrancophonedemo-navbar {
+body.is_app .defifrancophone-navbar {
 	-webkit-transition: top 0.5s linear;
 	-o-transition: top 0.5s linear;
 	-moz-transition: top 0.5s linear;
 	transition: top 0.5s linear;
 }
 
-body.is_app .defifrancophonedemo-navbar.ocultar {
+body.is_app .defifrancophone-navbar.ocultar {
 	top: -136px;
 }
 
-.defifrancophonedemo-navbar .navbar-content {
+.defifrancophone-navbar .navbar-content {
 	width: 100%;
 	height: 100%;
 	padding: 0 20px;
 	text-align: center;
 }
 
-.defifrancophonedemo-navbar .copyright {
+.defifrancophone-navbar .copyright {
 	color: #fff;
 	line-height: 5.0rem;
 }
@@ -1869,21 +1869,6 @@ counter-increment: bck-li-counter;
 	 display: none;
 }
 
-/*Caja 11*/
-.bck-box.bck-box-11 {
-    margin-top: -2.6%;
-    position: relative;
-    left: -13.2%;
-    width: 126.6%;
-    padding: 0;
-    margin: 0;
-    background: transparent;
-    border: none;
-}
-
-.bck-box-11 .bck-content .player.audio {
-	padding: 30px;
-}
 
 /*CAJA POP-UP*/
 .info-template .info-title:hover {
@@ -2313,40 +2298,40 @@ th {
 /*TAGS*/
 /*---------------------------------Unittag textbooks------------------------------*/
 
-#list-units .unittag_textbook_defifrancophonedemo {
+#list-units .unittag_textbook_defifrancophone {
 	background: #000 !important;
 }
 
-#list-units .unittag_textbook_defifrancophonedemo:hover {
+#list-units .unittag_textbook_defifrancophone:hover {
 	background: #ae440f !important;
 }
 
-.units ul#list-units .unittag_textbook_defifrancophonedemo a .title {
+.units ul#list-units .unittag_textbook_defifrancophone a .title {
 	color: #ffffff;
 }
 
 
 /*---------------------------------Unittag activities------------------------------*/
 
-#list-units .unittag_activities_defifrancophonedemo {
+#list-units .unittag_activities_defifrancophone {
 	background: #fff !important;
 }
 
-#list-units .unittag_activities_defifrancophonedemo:hover {
+#list-units .unittag_activities_defifrancophone:hover {
 	background: #ae440f !important;
 }
 
-.units ul#list-units .unittag_activities_defifrancophonedemo a .title {
+.units ul#list-units .unittag_activities_defifrancophone a .title {
 	color: #000;
 }
 
 
 /*---------------------------------Unittag titulo------------------------------*/
-#list-units .unittag_titulo_defifrancophonedemo {
+#list-units .unittag_titulo_defifrancophone {
     background: #ae440f !important;
 }
 
-.units ul#list-units .unittag_titulo_defifrancophonedemo a .title {
+.units ul#list-units .unittag_titulo_defifrancophone a .title {
 	color: #000;
 }
 
@@ -3138,26 +3123,26 @@ th {
 }
 
 
-#list-units .unittag_textbook_defifrancophonedemo {
+#list-units .unittag_textbook_defifrancophone {
     background: #000 !important;
 }
 
-.units ul#list-units .unittag_textbook_defifrancophonedemo a .title {
+.units ul#list-units .unittag_textbook_defifrancophone a .title {
     color: #ffffff;
 }
 
-#list-units .unittag_textbook_defifrancophonedemo:hover {
+#list-units .unittag_textbook_defifrancophone:hover {
     background: #3333337d !important;
 }
-#list-units .unittag_activities_defifrancophonedemo {
+#list-units .unittag_activities_defifrancophone {
     background: #fff !important;
 }
 
-.units ul#list-units .unittag_activities_defifrancophonedemo a .title {
+.units ul#list-units .unittag_activities_defifrancophone a .title {
     color: #000;
 }
 
-#list-units .unittag_activities_defifrancophonedemo:hover {
+#list-units .unittag_activities_defifrancophone:hover {
     background: #3333337d !important;
 }
 #indice .unit-content .header .title {
