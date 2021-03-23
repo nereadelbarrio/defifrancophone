@@ -2200,19 +2200,18 @@ hr {
 /**TABLA**/
 table,
 .bck-table {
-	border: 1px solid #fff;
+	border: 1px solid #transparent;
 }
 
 table td,
 .bck-table td {
-	border-color: #fff;
+	border-color: #transparent;
 }
 
 td,
 th {
 	padding-left: 10px;
 }
-
 /*CELDAS*/
 
 /*Celda 1*/
