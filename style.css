@@ -2200,12 +2200,12 @@ hr {
 /**TABLA**/
 table,
 .bck-table {
-	border: 1px solid #ccc;
+	border: 1px solid #fff;
 }
 
 table td,
 .bck-table td {
-	border-color: #ccc;
+	border-color: #fff;
 }
 
 td,
